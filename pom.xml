@@ -44,6 +44,7 @@
 		<springframework.data.version>2.1.8.RELEASE</springframework.data.version>
 		<springframework.security.version>5.1.5.RELEASE</springframework.security.version>
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
+		<commons.attributes.version>2.2</commons.attributes.version>
 		<fasterxml.jackson.core.version>2.9.9</fasterxml.jackson.core.version>
 		<fasterxml.jackson.dataformat.version>2.9.9</fasterxml.jackson.dataformat.version>
 		<fasterxml.jackson.datatype.version>2.9.9</fasterxml.jackson.datatype.version>
@@ -273,8 +274,25 @@
 
 			<dependency>
 				<groupId>org.springframework.webflow</groupId>
+				<artifactId>spring-binding</artifactId>
+				<version>${springframework.webflow.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.webflow</groupId>
 				<artifactId>spring-webflow</artifactId>
 				<version>${springframework.webflow.version}</version>
+			</dependency>
+
+			<dependency>
+    			<groupId>org.springmodules</groupId>
+    			<artifactId>spring-modules-cache</artifactId>
+    			<version>0.8</version>
+				<exclusions>
+					<exclusion>
+						<groupId>geronimo-spec</groupId>
+						<artifactId>geronimo-spec-jta</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 
 			<!-- velocity start -->
@@ -322,6 +340,16 @@
 				<groupId>org.glassfish</groupId>
 				<artifactId>javax.annotation</artifactId>
 				<version>3.1.1</version>
+			</dependency>
+			<dependency>
+    			<groupId>org.glassfish</groupId>
+    			<artifactId>javax.transaction</artifactId>
+    			<version>3.2-b06</version>
+			</dependency>
+			<dependency>
+				<groupId>javax.persistence</groupId>
+				<artifactId>javax.persistence-api</artifactId>
+				<version>2.2</version>
 			</dependency>
 			<dependency>
 				<groupId>org.glassfish</groupId>
@@ -414,6 +442,16 @@
 				<version>1.6</version>
 			</dependency>
 			<dependency>
+    			<groupId>commons-attributes</groupId>
+    			<artifactId>commons-attributes-api</artifactId>
+    			<version>${commons.attributes.version}</version>
+			</dependency>
+			<dependency>
+    			<groupId>commons-attributes</groupId>
+    			<artifactId>commons-attributes-compiler</artifactId>
+    			<version>${commons.attributes.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>commons-logging</groupId>
 				<artifactId>commons-logging</artifactId>
 				<version>1.2</version>
@@ -431,9 +469,39 @@
     			<version>1.5.0</version>
 			</dependency>
 			<dependency>
+			    <groupId>org.dom4j</groupId>
+			    <artifactId>dom4j</artifactId>
+			    <version>2.1.1</version>
+			</dependency>
+			<dependency>
     			<groupId>org.checkerframework</groupId>
     			<artifactId>checker-qual</artifactId>
     			<version>2.8.2</version>
+			</dependency>
+			<dependency>
+			    <groupId>cglib</groupId>
+			    <artifactId>cglib-nodep</artifactId>
+			    <version>3.2.12</version>
+			</dependency>
+			<dependency>
+			    <groupId>opensymphony</groupId>
+			    <artifactId>oscache</artifactId>
+			    <version>2.4.1</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.servlet</groupId>
+						<artifactId>servlet-api</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>javax.jms</groupId>
+						<artifactId>jms</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+			    <groupId>oro</groupId>
+			    <artifactId>oro</artifactId>
+			    <version>2.0.8</version>
 			</dependency>
 
 			<dependency>
@@ -567,6 +635,12 @@
 			</dependency>
 
 			<dependency>
+				<groupId>antlr</groupId>
+				<artifactId>antlr</artifactId>
+				<version>2.7.7</version>
+			</dependency>
+
+			<dependency>
 				<groupId>org.aspectj</groupId>
 				<artifactId>aspectjrt</artifactId>
 				<version>${aspectj.version}</version>
@@ -635,6 +709,17 @@
 				<groupId>com.fasterxml.jackson.jaxrs</groupId>
 				<artifactId>jackson-jaxrs-json-provider</artifactId>
 				<version>${fasterxml.jackson.jaxrs.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.fasterxml.jackson.module</groupId>
+				<artifactId>jackson-module-jaxb-annotations</artifactId>
+				<version>${fasterxml.jackson.module.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.module</groupId>
+				<artifactId>jackson-module-parameter-names</artifactId>
+				<version>${fasterxml.jackson.module.version}</version>
 			</dependency>
 			<!-- fasterxml jackson end -->
 

@@ -929,7 +929,7 @@
 	                    <prefix>git</prefix>
 	                    <dateFormat>yyyy-MM-dd HH:mm:ss z</dateFormat>
 	                    <failOnNoGitDirectory>false</failOnNoGitDirectory>
-	                    <dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
+	                    <dotGitDirectory>${project.basedir}/../.git</dotGitDirectory>
 	                    <skipPoms>false</skipPoms>
 	                    <verbose>false</verbose>
 	                    <generateGitPropertiesFile>false</generateGitPropertiesFile>

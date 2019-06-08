@@ -295,6 +295,13 @@
 				</exclusions>
 			</dependency>
 
+			<dependency>
+		      	<groupId>com.zaxxer</groupId>
+		      	<artifactId>HikariCP</artifactId>
+		      	<version>3.2.0</version>
+      			<scope>compile</scope>
+			</dependency>
+
 			<!-- velocity start -->
 			<dependency>
 				<groupId>org.apache.velocity</groupId>
@@ -900,6 +907,27 @@
 						<autoReleaseAfterClose>true</autoReleaseAfterClose>
 					</configuration>
 				</plugin>
+				<plugin>
+	                <groupId>pl.project13.maven</groupId>
+	                <artifactId>git-commit-id-plugin</artifactId>
+	                <version>3.0.0</version>
+	                <executions>
+	                    <execution>
+	                        <goals>
+	                            <goal>revision</goal>
+	                        </goals>
+	                    </execution>
+	                </executions>
+	                <configuration>
+	                    <prefix>git</prefix>
+	                    <dateFormat>yyyy-MM-dd HH:mm:ss z</dateFormat>
+	                    <failOnNoGitDirectory>false</failOnNoGitDirectory>
+	                    <dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
+	                    <skipPoms>false</skipPoms>
+	                    <verbose>false</verbose>
+	                    <generateGitPropertiesFile>false</generateGitPropertiesFile>
+	                </configuration>
+	            </plugin>
 			</plugins>
 		</pluginManagement>
 	</build>

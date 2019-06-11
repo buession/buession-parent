@@ -17,5 +17,4 @@ install: true
 script:
   - mvn clean install -Dmaven.test.skip=true
 after_success:
-  - mvn deploy
   - bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN

@@ -45,6 +45,8 @@
 		<springframework.security.version>5.1.5.RELEASE</springframework.security.version>
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
+		<velocity.tools.version>3.0</velocity.tools.version>
+		<sun.jersey.version>1.19.4</sun.jersey.version>
 		<fasterxml.jackson.core.version>2.9.9</fasterxml.jackson.core.version>
 		<fasterxml.jackson.dataformat.version>2.9.9</fasterxml.jackson.dataformat.version>
 		<fasterxml.jackson.datatype.version>2.9.9</fasterxml.jackson.datatype.version>
@@ -331,34 +333,17 @@
 			<dependency>
 				<groupId>org.apache.velocity</groupId>
 				<artifactId>velocity-engine-core</artifactId>
-				<version>2.0</version>
+				<version>2.1</version>
 			</dependency>
 			<dependency>
-				<groupId>org.apache.velocity</groupId>
-				<artifactId>velocity-tools</artifactId>
-				<version>2.0</version>
-				<exclusions>
-					<exclusion>
-						<groupId>org.apache.velocity</groupId>
-						<artifactId>velocity</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>javax.servlet</groupId>
-						<artifactId>servlet-api</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>dom4j</groupId>
-						<artifactId>dom4j</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>org.apache.struts</groupId>
-						<artifactId>*</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>struts</groupId>
-						<artifactId>*</artifactId>
-					</exclusion>
-				</exclusions>
+				<groupId>org.apache.velocity.tools</groupId>
+				<artifactId>velocity-tools-generic</artifactId>
+				<version>${velocity.tools.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.velocity.tools</groupId>
+				<artifactId>velocity-tools-view</artifactId>
+				<version>${velocity.tools.version}</version>
 			</dependency>
 			<!-- velocity end -->
 
@@ -557,7 +542,17 @@
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-json</artifactId>
-				<version>1.19.4</version>
+				<version>${sun.jersey.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sun.jersey</groupId>
+				<artifactId>jersey-client</artifactId>
+				<version>${sun.jersey.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sun.jersey.contribs</groupId>
+				<artifactId>jersey-apache-client4</artifactId>
+				<version>${sun.jersey.version}</version>
 			</dependency>
 
 			<dependency>
@@ -861,6 +856,17 @@
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.8.1</version>
+					<configuration>
+						<encoding>${project.build.encoding}</encoding>
+						<source>${project.java.version}</source>
+						<target>${project.java.version}</target>
+						<compilerArgument>-Xlint:unchecked</compilerArgument>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.1.2</version>
 					<configuration>
@@ -870,17 +876,6 @@
 								<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
 							</manifest>
 						</archive>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.1</version>
-					<configuration>
-						<encoding>${project.build.encoding}</encoding>
-						<source>${project.java.version}</source>
-						<target>${project.java.version}</target>
-						<compilerArgument>-Xlint:unchecked</compilerArgument>
 					</configuration>
 				</plugin>
 				<plugin>

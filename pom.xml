@@ -143,6 +143,13 @@
 				<artifactId>spring-webmvc</artifactId>
 				<version>${springframework.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webflux</artifactId>
+				<version>${springframework.version}</version>
+				<scope>compile</scope>
+				<optional>true</optional>
+			</dependency>
 			<!-- springframework end -->
 
 			<!-- springframework boot start -->

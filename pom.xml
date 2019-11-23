@@ -370,6 +370,33 @@
 			    <artifactId>jakarta.validation-api</artifactId>
 			    <version>2.0.2</version>
 			</dependency>
+			<dependency>
+			    <groupId>jakarta.transaction</groupId>
+			    <artifactId>jakarta.transaction-api</artifactId>
+			    <version>1.3.3</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+			    <groupId>jakarta.persistence</groupId>
+			    <artifactId>jakarta.persistence-api</artifactId>
+			    <version>2.2.3</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>jakarta.inject</groupId>
+				<artifactId>jakarta.inject-api</artifactId>
+				<version>1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>jakarta.xml.ws</groupId>
+				<artifactId>jakarta.xml.ws-api</artifactId>
+				<version>2.3.2</version>
+			</dependency>
+			<dependency>
+			    <groupId>jakarta.ws.rs</groupId>
+			    <artifactId>jakarta.ws.rs-api</artifactId>
+			    <version>2.1.6</version>
+			</dependency>
 
 			<dependency>
 		      	<groupId>com.zaxxer</groupId>
@@ -401,6 +428,12 @@
 				<artifactId>mybatis-typehandlers-threeten-extra</artifactId>
 				<version>1.0.0</version>
 				<scope>compile</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.mongodb</groupId>
+				<artifactId>mongo-java-driver</artifactId>
+				<version>3.11.2</version>
 			</dependency>
 
 			<!-- velocity start -->
@@ -599,6 +632,17 @@
 			</dependency>
 
 			<dependency>
+			    <groupId>org.hibernate</groupId>
+			    <artifactId>hibernate-core</artifactId>
+			    <version>5.4.8.Final</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.hibernate.validator</groupId>
+			    <artifactId>hibernate-validator</artifactId>
+			    <version>6.1.0.Final</version>
+			</dependency>
+
+			<dependency>
     			<groupId>org.bouncycastle</groupId>
     			<artifactId>bcprov-jdk15on</artifactId>
     			<version>${org.bouncycastle.version}</version>
@@ -618,6 +662,12 @@
 				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-client</artifactId>
 				<version>${sun.jersey.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.ws.rs</groupId>
+						<artifactId>jsr311-api</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>

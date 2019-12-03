@@ -58,10 +58,10 @@
 		<fasterxml.jackson.jaxrs.version>2.10.1</fasterxml.jackson.jaxrs.version>
 		<fasterxml.jackson.module.version>2.10.1</fasterxml.jackson.module.version>
 		<codehaus.jackson.version>1.9.13</codehaus.jackson.version>
-		<codehaus.jettison.version>1.3.7</codehaus.jettison.version>
+		<codehaus.jettison.version>1.4.0</codehaus.jettison.version>
 		<io.micrometer.version>1.3.1</io.micrometer.version>
 		<io.dropwizard.metrics.version>4.1.1</io.dropwizard.metrics.version>
-		<aspectj.version>1.9.4</aspectj.version>
+		<aspectj.version>1.9.5</aspectj.version>
 		<org.bouncycastle.version>1.64</org.bouncycastle.version>
 		<slf4j.version>1.7.26</slf4j.version>
 		<apache.logging.log4j.version>2.11.2</apache.logging.log4j.version>
@@ -874,6 +874,11 @@
 				<version>${fasterxml.jackson.core.version}</version>
 			</dependency>
 
+			<dependency>
+				<groupId>com.fasterxml.jackson.dataformat</groupId>
+				<artifactId>jackson-dataformat-xml</artifactId>
+				<version>${fasterxml.jackson.dataformat.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.fasterxml.jackson.dataformat</groupId>
 				<artifactId>jackson-dataformat-yaml</artifactId>

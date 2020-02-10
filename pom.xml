@@ -966,6 +966,11 @@
 				<artifactId>jackson-module-parameter-names</artifactId>
 				<version>${fasterxml.jackson.module.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.fasterxml.jackson.module</groupId>
+				<artifactId>jackson-module-afterburner</artifactId>
+				<version>${fasterxml.jackson.module.version}</version>
+			</dependency>
 			<!-- fasterxml jackson end -->
 
 			<!-- codehaus jackson start -->

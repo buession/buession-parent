@@ -7,7 +7,7 @@
 	<artifactId>parent</artifactId>
 	<url>https://github.com/buession/buession-parent</url>
 	<description>Buession Parent</description>
-	<version>1.1.2</version>
+	<version>1.1.3</version>
 	<packaging>pom</packaging>
 
 	<organization>
@@ -39,10 +39,10 @@
 	<properties>
 		<project.build.encoding>UTF-8</project.build.encoding>
 		<project.java.version>1.8</project.java.version>
-		<buession.version>1.1.2</buession.version>
-		<buession.security.version>1.1.2</buession.security.version>
-		<buession.springboot.version>1.1.2</buession.springboot.version>
-		<buession.springcloud.version>1.1.2</buession.springcloud.version>
+		<buession.version>1.1.3</buession.version>
+		<buession.security.version>1.1.3</buession.security.version>
+		<buession.springboot.version>1.1.3</buession.springboot.version>
+		<buession.springcloud.version>1.1.3</buession.springcloud.version>
 		<springframework.version>5.2.5.RELEASE</springframework.version>
 		<springframework.boot.version>2.2.6.RELEASE</springframework.boot.version>
 		<springframework.cloud.version>2.2.2.RELEASE</springframework.cloud.version>
@@ -51,7 +51,7 @@
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
 		<shiro.version>1.5.2</shiro.version>
-		<pac4j.version>4.0.0-RC3</pac4j.version>
+		<pac4j.version>4.0.0</pac4j.version>
 		<cas.client.version>3.6.1</cas.client.version>
 		<velocity.tools.version>3.0</velocity.tools.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
@@ -1205,13 +1205,16 @@
 						<charset>${project.build.encoding}</charset>
 						<encoding>${project.build.encoding}</encoding>
 						<docencoding>${project.build.encoding}</docencoding>
+						<reportOutputDirectory>${basedir}/../docs/doc/${project.version}/</reportOutputDirectory>
+						<destDir>${project.artifactId}</destDir>
 					</configuration>
 					<executions>
 						<execution>
-							<id>attach-javadoc</id>
+							<id>aggregate</id>
 							<goals>
-								<goal>jar</goal>
+								<goal>aggregate</goal>
 							</goals>
+							<phase>site</phase>
 						</execution>
 					</executions>
 				</plugin>

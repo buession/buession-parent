@@ -64,7 +64,7 @@
 		<fasterxml.jackson.module.version>2.11.0</fasterxml.jackson.module.version>
 		<codehaus.jackson.version>1.9.13</codehaus.jackson.version>
 		<codehaus.jettison.version>1.4.0</codehaus.jettison.version>
-		<io.micrometer.version>1.5.1</io.micrometer.version>
+		<io.micrometer.version>1.5.3</io.micrometer.version>
 		<io.dropwizard.metrics.version>4.1.9</io.dropwizard.metrics.version>
 		<aspectj.version>1.9.5</aspectj.version>
 		<org.bouncycastle.version>1.65</org.bouncycastle.version>

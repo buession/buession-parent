@@ -52,7 +52,7 @@
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
 		<mongodb.version>4.0.5</mongodb.version>
-		<shiro.version>1.5.3</shiro.version>
+		<shiro.version>1.7.1</shiro.version>
 		<pac4j.version>4.0.2</pac4j.version>
 		<cas.client.version>3.6.1</cas.client.version>
 		<velocity.tools.version>3.0</velocity.tools.version>

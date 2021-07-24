@@ -1,0 +1,38 @@
+Buession Parent Changelog
+===========================
+
+
+Changes in version 1.3.0 (2021-07-10)
+-------------------------------------
+
+* springframework 版本升级至 5.2.15.RELEASE
+* springboot 版本升级至 2.3.12.RELEASE
+* spring cloud 版本升级至 2.2.9.RELEASE
+* spring security 版本升级至 5.3.10.RELEASE
+* spring-data-commons 版本升级至 2.3.9.RELEASE
+* spring-data-mongodb 版本升级至 3.0.9.RELEASE
+* spring-data-redis 版本升级至 2.3.9.RELEASE
+* spring-session-data-redis 版本升级至 2.3.3.RELEASE
+* mongodb 版本升级至 4.2.3
+* pac4j 版本升级至 4.5.1
+* jackson 版本升级至 2.12.4
+* micrometer 版本升级至 1.7.1
+* dropwizard 版本升级至 4.2.2
+* aspectj 版本升级至 1.9.7
+* bouncycastle 版本升级至 1.69
+* jakarta inject 版本升级至 1.0.3
+* jakarta xml ws 版本升级至 3.0.1
+* jakarta ws rs 版本升级至 3.0.0
+* mybatis 版本升级至 3.5.7
+* commons-pool2 版本升级至 2.10.0
+* commons-io 版本升级至 2.10.0
+* jedis 版本升级至 3.6.1
+* lettuce 版本升级至 5.3.7.RELEASE
+* org.checkerframework:checker-qual 版本升级至 3.15.0
+* hibernate-core 版本升级至 5.5.3.Final
+* reactor-core 版本升级至 3.3.18.RELEASE
+* snakeyaml 版本升级至 1.29
+* alibaba fastjson 版本升级至 1.2.76
+* google gson 版本升级至 2.8.7
+* cas client 版本升级至 3.6.2
+* 部分排除依赖的调整

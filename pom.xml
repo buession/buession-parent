@@ -7,7 +7,7 @@
 	<artifactId>parent</artifactId>
 	<url>https://github.com/buession/buession-parent</url>
 	<description>Buession Parent</description>
-	<version>1.2.2</version>
+	<version>1.3.0</version>
 	<packaging>pom</packaging>
 
 	<organization>
@@ -41,33 +41,33 @@
 		<project.java.version>1.8</project.java.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
   		<maven.compiler.target>1.8</maven.compiler.target>
-		<buession.version>1.2.2</buession.version>
-		<buession.security.version>1.2.2</buession.security.version>
-		<buession.springboot.version>1.2.2</buession.springboot.version>
-		<buession.springcloud.version>1.2.2</buession.springcloud.version>
-		<springframework.version>5.2.13.RELEASE</springframework.version>
-		<springframework.boot.version>2.3.9.RELEASE</springframework.boot.version>
-		<springframework.cloud.version>2.2.7.RELEASE</springframework.cloud.version>
-		<springframework.security.version>5.3.8.RELEASE</springframework.security.version>
+		<buession.version>1.3.0</buession.version>
+		<buession.security.version>1.3.0</buession.security.version>
+		<buession.springboot.version>1.3.0</buession.springboot.version>
+		<buession.springcloud.version>1.3.0</buession.springcloud.version>
+		<springframework.version>5.2.15.RELEASE</springframework.version>
+		<springframework.boot.version>2.3.12.RELEASE</springframework.boot.version>
+		<springframework.cloud.version>2.2.9.RELEASE</springframework.cloud.version>
+		<springframework.security.version>5.3.10.RELEASE</springframework.security.version>
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
-		<mongodb.version>4.2.2</mongodb.version>
+		<mongodb.version>4.2.3</mongodb.version>
 		<shiro.version>1.7.1</shiro.version>
-		<pac4j.version>4.4.0</pac4j.version>
-		<cas.client.version>3.6.1</cas.client.version>
+		<pac4j.version>4.5.1</pac4j.version>
+		<cas.client.version>3.6.2</cas.client.version>
 		<velocity.tools.version>3.1</velocity.tools.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
-		<fasterxml.jackson.core.version>2.12.2</fasterxml.jackson.core.version>
-		<fasterxml.jackson.dataformat.version>2.12.2</fasterxml.jackson.dataformat.version>
-		<fasterxml.jackson.datatype.version>2.12.2</fasterxml.jackson.datatype.version>
-		<fasterxml.jackson.jaxrs.version>2.12.2</fasterxml.jackson.jaxrs.version>
-		<fasterxml.jackson.module.version>2.12.2</fasterxml.jackson.module.version>
+		<fasterxml.jackson.core.version>2.12.4</fasterxml.jackson.core.version>
+		<fasterxml.jackson.dataformat.version>2.12.4</fasterxml.jackson.dataformat.version>
+		<fasterxml.jackson.datatype.version>2.12.4</fasterxml.jackson.datatype.version>
+		<fasterxml.jackson.jaxrs.version>2.12.4</fasterxml.jackson.jaxrs.version>
+		<fasterxml.jackson.module.version>2.12.4</fasterxml.jackson.module.version>
 		<codehaus.jackson.version>1.9.13</codehaus.jackson.version>
 		<codehaus.jettison.version>1.4.0</codehaus.jettison.version>
-		<io.micrometer.version>1.6.5</io.micrometer.version>
-		<io.dropwizard.metrics.version>4.1.18</io.dropwizard.metrics.version>
-		<aspectj.version>1.9.6</aspectj.version>
-		<org.bouncycastle.version>1.68</org.bouncycastle.version>
+		<io.micrometer.version>1.7.1</io.micrometer.version>
+		<io.dropwizard.metrics.version>4.2.2</io.dropwizard.metrics.version>
+		<aspectj.version>1.9.7</aspectj.version>
+		<org.bouncycastle.version>1.69</org.bouncycastle.version>
 		<slf4j.version>1.7.30</slf4j.version>
 		<apache.logging.log4j.version>2.14.1</apache.logging.log4j.version>
 	</properties>
@@ -202,7 +202,7 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring.boot.properties.migrator</artifactId>
+				<artifactId>spring-boot-properties-migrator</artifactId>
 				<version>${springframework.boot.version}</version>
 			</dependency>
 			<dependency>
@@ -288,25 +288,25 @@
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-commons</artifactId>
-				<version>2.3.8.RELEASE</version>
+				<version>2.3.9.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-mongodb</artifactId>
-				<version>3.0.8.RELEASE</version>
+				<version>3.0.9.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-redis</artifactId>
-				<version>2.3.8.RELEASE</version>
+				<version>2.3.9.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.session</groupId>
 				<artifactId>spring-session-data-redis</artifactId>
-				<version>2.3.2.RELEASE</version>
+				<version>2.3.3.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
 
@@ -350,18 +350,6 @@
 			</dependency>
 
 			<dependency>
-    			<groupId>org.springmodules</groupId>
-    			<artifactId>spring-modules-cache</artifactId>
-    			<version>0.8</version>
-				<exclusions>
-					<exclusion>
-						<groupId>geronimo-spec</groupId>
-						<artifactId>geronimo-spec-jta</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-
-			<dependency>
 				<groupId>org.springframework.retry</groupId>
 				<artifactId>spring-retry</artifactId>
 				<version>1.3.1</version>
@@ -369,6 +357,18 @@
 					<exclusion>
 						<groupId>javax.annotation</groupId>
 						<artifactId>javax.annotation-api</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+
+			<dependency>
+    			<groupId>org.springmodules</groupId>
+    			<artifactId>spring-modules-cache</artifactId>
+    			<version>0.8</version>
+				<exclusions>
+					<exclusion>
+						<groupId>geronimo-spec</groupId>
+						<artifactId>geronimo-spec-jta</artifactId>
 					</exclusion>
 				</exclusions>
 			</dependency>
@@ -394,7 +394,7 @@
 			<dependency>
 				<groupId>jakarta.inject</groupId>
 				<artifactId>jakarta.inject-api</artifactId>
-				<version>1.0</version>
+				<version>1.0.3</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -436,13 +436,13 @@
 			<dependency>
 				<groupId>jakarta.xml.ws</groupId>
 				<artifactId>jakarta.xml.ws-api</artifactId>
-				<version>3.0.0-RC3</version>
+				<version>3.0.1</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.ws.rs</groupId>
 			    <artifactId>jakarta.ws.rs-api</artifactId>
-			    <version>2.1.6</version>
+			    <version>3.0.0</version>
 				<scope>compile</scope>
 			</dependency>
 
@@ -463,7 +463,7 @@
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
-				<version>3.5.6</version>
+				<version>3.5.7</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -567,8 +567,7 @@
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-pool2</artifactId>
-				<version>2.9.0</version>
-				<scope>compile</scope>
+				<version>2.10.0</version>
 			</dependency>
 			<dependency>
 			    <groupId>org.apache.commons</groupId>
@@ -625,7 +624,7 @@
 			<dependency>
 				<groupId>commons-io</groupId>
 				<artifactId>commons-io</artifactId>
-				<version>2.8.0</version>
+				<version>2.10.0</version>
 			</dependency>
 			<dependency>
 				<groupId>commons-lang</groupId>
@@ -651,7 +650,7 @@
 				<exclusions>
 					<exclusion>
 						<groupId>com.zaxxer</groupId>
-						<artifactId>HikariCP-java7</artifactId>
+						<artifactId>*</artifactId>
 					</exclusion>
 				</exclusions>
 			</dependency>
@@ -659,13 +658,13 @@
 			<dependency>
 			    <groupId>redis.clients</groupId>
 			    <artifactId>jedis</artifactId>
-			    <version>3.5.2</version>
+			    <version>3.6.1</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
     			<groupId>io.lettuce</groupId>
     			<artifactId>lettuce-core</artifactId>
-    			<version>5.3.6.RELEASE</version>
+    			<version>5.3.7.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
 
@@ -687,7 +686,7 @@
 			<dependency>
     			<groupId>org.checkerframework</groupId>
     			<artifactId>checker-qual</artifactId>
-    			<version>3.12.0</version>
+    			<version>3.15.0</version>
 			</dependency>
 			<dependency>
 			    <groupId>cglib</groupId>
@@ -718,7 +717,7 @@
 			<dependency>
 			    <groupId>org.hibernate</groupId>
 			    <artifactId>hibernate-core</artifactId>
-			    <version>5.4.30.Final</version>
+			    <version>5.5.3.Final</version>
 			    <exclusions>
 					<exclusion>
 						<groupId>org.jboss.logging</groupId>
@@ -925,7 +924,7 @@
 			<dependency>
 				<groupId>io.projectreactor</groupId>
 				<artifactId>reactor-core</artifactId>
-				<version>3.3.15.RELEASE</version>
+				<version>3.3.18.RELEASE</version>
 			</dependency>
 
 			<!-- shiro start -->
@@ -959,7 +958,7 @@
 				<exclusions>
 					<exclusion>
 						<groupId>com.zaxxer</groupId>
-						<artifactId>HikariCP</artifactId>
+						<artifactId>*</artifactId>
 					</exclusion>
 				</exclusions>
 			</dependency>
@@ -986,14 +985,14 @@
 			<dependency>
 				<groupId>org.pac4j</groupId>
 				<artifactId>spring-webmvc-pac4j</artifactId>
-				<version>4.0.1</version>
+				<version>5.0.0</version>
 			</dependency>
 			<!-- pac4j end -->
 
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
-				<version>1.28</version>
+				<version>1.29</version>
 			</dependency>
 
 			<dependency>
@@ -1142,13 +1141,13 @@
 			<dependency>
 			    <groupId>com.alibaba</groupId>
 			    <artifactId>fastjson</artifactId>
-			    <version>1.2.75</version>
+			    <version>1.2.76</version>
 			</dependency>
 
 			<dependency>
 			    <groupId>com.google.code.gson</groupId>
 			    <artifactId>gson</artifactId>
-			    <version>2.8.6</version>
+			    <version>2.8.7</version>
 			</dependency>
 
 			<!-- log start -->
@@ -1285,6 +1284,14 @@
 							</goals>
 						</execution>
 					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.1.0</version>
+					<configuration>
+						<encoding>${project.build.encoding}</encoding>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>

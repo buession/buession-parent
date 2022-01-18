@@ -4,8 +4,8 @@ Buession Parent Changelog
 
 Changes in version 1.3.1 (2021-11-09)
 -------------------------------------
-* springframework 版本升级至 5.2.18.RELEASE
-* spring security 版本升级至 5.3.12.RELEASE
+* springframework 版本升级至 5.2.19.RELEASE
+* spring security 版本升级至 5.3.13.RELEASE
 * mongodb 版本升级至 4.3.4
 * commons-pool2 版本升级至 2.11.1
 * jedis 版本升级至 3.7.0

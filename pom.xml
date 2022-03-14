@@ -1312,8 +1312,8 @@
 						<charset>${project.build.encoding}</charset>
 						<encoding>${project.build.encoding}</encoding>
 						<docencoding>${project.build.encoding}</docencoding>
-						<reportOutputDirectory>${basedir}/../docs/doc/${project.version}/</reportOutputDirectory>
-						<destDir>${basedir}/../docs/doc/${project.version}/${project.artifactId}</destDir>
+						<reportOutputDirectory>${basedir}/../docs/${project.version}/</reportOutputDirectory>
+						<destDir>${basedir}/../docs/${project.version}/${project.artifactId}</destDir>
 					</configuration>
 					<executions>
 						<execution>

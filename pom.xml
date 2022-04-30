@@ -58,7 +58,7 @@
 		<cas.client.version>3.6.2</cas.client.version>
 		<velocity.tools.version>3.1</velocity.tools.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
-		<fasterxml.jackson.core.version>2.13.1</fasterxml.jackson.core.version>
+		<fasterxml.jackson.core.version>2.13.2.1</fasterxml.jackson.core.version>
 		<fasterxml.jackson.datatype.version>2.13.1</fasterxml.jackson.datatype.version>
 		<fasterxml.jackson.dataformat.version>2.13.1</fasterxml.jackson.dataformat.version>
 		<fasterxml.jackson.jaxrs.version>2.13.1</fasterxml.jackson.jaxrs.version>

@@ -22,7 +22,7 @@ Changes in version 2.0.0 (2022-02-21)
 * snakeyaml 版本升级至 1.30
 * aspectj 版本升级至 1.9.8
 * fasterxml jackson 版本升级至 2.13.1
-* fastjson 版本升级至 1.2.79
+* fastjson 版本升级至 1.2.83，修复 autoType 绕过漏洞
 * gson 版本升级至 2.9.0
 
 

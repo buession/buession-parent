@@ -19,6 +19,7 @@ Changes in version 2.0.0 (2022-02-21)
 * io.dropwizard.metrics 版本升级至 4.2.8
 * projectreactor reactor-core 版本升级至 3.3.22.RELEASE
 * pac4j 版本升级至 4.5.4
+* cas client 版本升级至 3.6.4
 * snakeyaml 版本升级至 1.30
 * aspectj 版本升级至 1.9.8
 * fasterxml jackson 版本升级至 2.13.1

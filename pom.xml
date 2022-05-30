@@ -55,7 +55,7 @@
 		<mongodb.version>4.5.0</mongodb.version>
 		<shiro.version>1.8.0</shiro.version>
 		<pac4j.version>4.5.4</pac4j.version>
-		<cas.client.version>3.6.2</cas.client.version>
+		<cas.client.version>3.6.4</cas.client.version>
 		<velocity.tools.version>3.1</velocity.tools.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
 		<fasterxml.jackson.core.version>2.13.1</fasterxml.jackson.core.version>
@@ -978,6 +978,11 @@
 						<artifactId>*</artifactId>
 					</exclusion>
 				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.pac4j</groupId>
+				<artifactId>pac4j-core</artifactId>
+				<version>${pac4j.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.pac4j</groupId>

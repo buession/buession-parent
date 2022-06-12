@@ -1323,8 +1323,8 @@
 						<charset>${project.build.encoding}</charset>
 						<encoding>${project.build.encoding}</encoding>
 						<docencoding>${project.build.encoding}</docencoding>
-						<reportOutputDirectory>${basedir}/../docs/${project.version}/</reportOutputDirectory>
-						<destDir>${basedir}/../docs/${project.version}/${project.artifactId}</destDir>
+						<reportOutputDirectory>${basedir}/../doc/docs/${project.version}/</reportOutputDirectory>
+						<destDir>${basedir}/../docs/doc/${project.version}/${project.artifactId}</destDir>
 					</configuration>
 					<executions>
 						<execution>
@@ -1342,6 +1342,39 @@
 					<configuration>
 						<encoding>${project.build.encoding}</encoding>
 					</configuration>
+				</plugin>
+				<plugin>
+	                <groupId>org.apache.maven.plugins</groupId>
+	                <artifactId>maven-checkstyle-plugin</artifactId>
+	                <version>3.1.1</version>
+	                <configuration>
+	                    <configLocation>${project.basedir}/../checkstyle.xml</configLocation>
+	                </configuration>
+	                <executions>
+	                    <execution>
+	                        <id>checkstyle</id>
+	                        <phase>validate</phase>
+	                        <goals>
+	                            <goal>check</goal>
+	                        </goals>
+	                        <configuration>
+	                        	<skip>false</skip>
+	                            <failOnViolation>true</failOnViolation>
+	                            <includeTestSourceDirectory>true</includeTestSourceDirectory>
+	                        </configuration>
+	                    </execution>
+	                </executions>
+	            </plugin>
+	            <plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.2</version>
+					<configuration>
+						<includes>
+							<include>**/*Tests.java</include>
+	                        <include>**/*Test.java</include>
+						</includes>
+	                </configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>

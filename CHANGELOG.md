@@ -4,7 +4,7 @@ Buession Parent Changelog
 
 ## [2.0.0](https://github.com/buession/buession-parent/releases/tag/v2.0.0) (2022-02-21)
 
-### 依赖升级
+### 🔨依赖升级
 
 - [tomcat-jdbc](https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc) 版本升级至 10.0.16
 - [mybatis](https://github.com/mybatis/mybatis-3) 版本升级至 3.5.9
@@ -28,6 +28,7 @@ Buession Parent Changelog
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.13.1
 - [fastjson](https://github.com/alibaba/fastjson2) 版本升级至 1.2.83，修复 autoType 绕过漏洞
 - [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.9.0
+
 
 ### 漏洞修复
 

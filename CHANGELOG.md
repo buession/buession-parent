@@ -14,6 +14,7 @@ Buession Parent Changelog
 - [apache httpcomponents httpcore](http://hc.apache.org/httpcomponents-core-ga) 版本升级至 4.4.15
 - [jedis](https://github.com/redis/jedis) 版本升级至 3.8.0
 - [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.21.2
+- [shiro](https://github.com/apache/shiro) 版本升级至 1.9.1
 - [hibernate-core](https://github.com/hibernate/hibernate-orm) 版本升级至 5.6.5.Final
 - [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 6.2.2.Final
 - [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.70
@@ -33,3 +34,4 @@ Buession Parent Changelog
 ### 漏洞修复
 
 - [fastjson](https://github.com/alibaba/fastjson2) 修复 autoType 绕过漏洞
+- [shiro](https://github.com/apache/shiro) 修复 CVE-2022-32532 绕过漏洞

@@ -33,5 +33,5 @@ Buession Parent Changelog
 
 ### 漏洞修复
 
-- [fastjson](https://github.com/alibaba/fastjson2) 修复 autoType 绕过漏洞
+- [fastjson](https://github.com/alibaba/fastjson) 修复 autoType 绕过漏洞
 - [shiro](https://github.com/apache/shiro) 修复 CVE-2022-32532 绕过漏洞

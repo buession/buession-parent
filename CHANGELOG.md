@@ -27,7 +27,7 @@ Buession Parent Changelog
 - [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 1.30
 - [aspectj](https://github.com/eclipse/org.aspectj) 版本升级至 1.9.8
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.13.1
-- [fastjson](https://github.com/alibaba/fastjson2) 版本升级至 1.2.83，修复 autoType 绕过漏洞
+- [fastjson](https://github.com/alibaba/fastjson) 版本升级至 1.2.83，修复 autoType 绕过漏洞
 - [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.9.0
 
 

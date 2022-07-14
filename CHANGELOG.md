@@ -9,7 +9,6 @@ Buession Parent Changelog
 - [druid](https://github.com/alibaba/druid) 版本升级至 1.2.11
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.13.3
 - [guava](https://github.com/google/guava) 版本升级至 31.1
-- [HikariCP](https://github.com/brettwooldridge/HikariCP) 版本升级至 5.0.1
 - [io.micrometer](https://github.com/micrometer-metrics/micrometer ) 版本升级至 1.9.1
 - [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.10
 - [jakarta inject-api](https://github.com/eclipse-ee4j/injection-api) 版本升级至 1.0.5
@@ -26,17 +25,20 @@ Buession Parent Changelog
 - [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.10
 - [pac4j](https://github.com/pac4j/pac4j) 版本升级至 4.5.6
 - [pac4j spring-webmvc-pac4j](https://github.com/pac4j/spring-webmvc-pac4j) 版本升级至 5.1.0
-- [reactive-streams](http://www.reactive-streams.org/) 版本升级至 1.0.4
 - [slf4j](http://www.slf4j.org) 版本升级至 1.7.36
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.2.22.RELEASE
 - [spring-retry](https://www.springsource.org) 版本升级至 1.3.3
 - [jedis](https://github.com/redis/jedis) 版本升级至 4.2.3
+- [org.reactivestreams](http://www.reactive-streams.org/) 版本升级至 1.0.4
+- [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.18.0
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.13.3
 
 
 ### 漏洞修复
 
 - [kotlin](https://kotlinlang.org/) 修复 CVE-2022-24329 漏洞
 - [springframework](https://github.com/spring-projects/spring-framework) 修复 CVE-2022-22968、CVE-2022-22970、CVE-2022-22971 漏洞
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 修复 CVE-2020-36518 漏洞
 
 
 ## [2.0.0](https://github.com/buession/buession-parent/releases/tag/v2.0.0) (2022-07-05)

@@ -69,7 +69,6 @@
 		<fasterxml.jackson.dataformat.version>2.13.3</fasterxml.jackson.dataformat.version>
 		<fasterxml.jackson.jaxrs.version>2.13.3</fasterxml.jackson.jaxrs.version>
 		<fasterxml.jackson.module.version>2.13.3</fasterxml.jackson.module.version>
-		<codehaus.jackson.version>1.9.13</codehaus.jackson.version>
 		<codehaus.jettison.version>1.4.0</codehaus.jettison.version>
 		<io.micrometer.version>1.9.1</io.micrometer.version>
 		<io.dropwizard.metrics.version>4.2.10</io.dropwizard.metrics.version>
@@ -1013,7 +1012,7 @@
 			<dependency>
 				<groupId>org.pac4j</groupId>
 				<artifactId>spring-webmvc-pac4j</artifactId>
-				<version>5.1.0</version>
+				<version>5.0.0</version>
 			</dependency>
 			<!-- pac4j end -->
 
@@ -1137,34 +1136,6 @@
 				<version>${fasterxml.jackson.module.version}</version>
 			</dependency>
 			<!-- fasterxml jackson end -->
-
-			<!-- codehaus jackson start -->
-			<dependency>
-				<groupId>org.codehaus.jackson</groupId>
-				<artifactId>jackson-core-asl</artifactId>
-				<version>${codehaus.jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.codehaus.jackson</groupId>
-				<artifactId>jackson-jaxrs</artifactId>
-				<version>${codehaus.jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.codehaus.jackson</groupId>
-				<artifactId>jackson-mapper-asl</artifactId>
-				<version>${codehaus.jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.codehaus.jackson</groupId>
-				<artifactId>jackson-xc</artifactId>
-				<version>${codehaus.jackson.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.codehaus.jettison</groupId>
-				<artifactId>jettison</artifactId>
-				<version>${codehaus.jettison.version}</version>
-			</dependency>
-			<!-- codehaus jackson end -->
 
 			<dependency>
 			    <groupId>com.alibaba</groupId>

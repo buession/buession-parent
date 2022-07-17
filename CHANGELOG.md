@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [2.0.1](https://github.com/buession/buession-parent/releases/tag/v2.0.1) (2022-07-xx)
+## [2.0.1](https://github.com/buession/buession-parent/releases/tag/v2.0.1) (2022-07-17)
 
 ### 🔨依赖升级
 
@@ -24,7 +24,6 @@ Buession Parent Changelog
 - [mongodb driver core](https://www.mongodb.com/) 版本升级至 4.6.1
 - [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.10
 - [pac4j](https://github.com/pac4j/pac4j) 版本升级至 4.5.6
-- [pac4j spring-webmvc-pac4j](https://github.com/pac4j/spring-webmvc-pac4j) 版本升级至 5.1.0
 - [slf4j](http://www.slf4j.org) 版本升级至 1.7.36
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.2.22.RELEASE
 - [spring-retry](https://www.springsource.org) 版本升级至 1.3.3
@@ -36,9 +35,9 @@ Buession Parent Changelog
 
 ### 漏洞修复
 
-- [kotlin](https://kotlinlang.org/) 修复 CVE-2022-24329 漏洞
-- [springframework](https://github.com/spring-projects/spring-framework) 修复 CVE-2022-22968、CVE-2022-22970、CVE-2022-22971 漏洞
-- [fasterxml jackson](http://github.com/FasterXML/jackson) 修复 CVE-2020-36518 漏洞
+- [kotlin](https://kotlinlang.org/) 修复 [CVE-2022-24329](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24329) 漏洞
+- [springframework](https://github.com/spring-projects/spring-framework) 修复 [CVE-2022-22968](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22968)、[CVE-2022-22970](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22970)、[CVE-2022-22971](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22971) 漏洞
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 修复 [CVE-2020-36518](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36518) 漏洞
 
 
 ## [2.0.0](https://github.com/buession/buession-parent/releases/tag/v2.0.0) (2022-07-05)

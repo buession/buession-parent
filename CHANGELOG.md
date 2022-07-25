@@ -2,6 +2,14 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.0.2](https://github.com/buession/buession-parent/releases/tag/v2.0.2) (2022-07-25)
+
+### 🔨依赖升级
+
+- [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.2.22.RELEASE
+- [spring-retry](https://github.com/spring-projects/spring-retry) 版本升级至 1.3.3
+
+
 ## [2.0.1](https://github.com/buession/buession-parent/releases/tag/v2.0.1) (2022-07-17)
 
 ### 🔨依赖升级

@@ -12,7 +12,7 @@ Buession Parent Changelog
 - [kotlin](https://kotlinlang.org/) 版本升级至 1.7.10
 
 
-------
+---
 
 
 ## [2.0.2](https://github.com/buession/buession-parent/releases/tag/v2.0.2) (2022-07-25)

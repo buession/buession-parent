@@ -12,7 +12,7 @@ Buession Parent Changelog
 - [kotlin](https://kotlinlang.org/) 版本升级至 1.7.10
 
 
-##
+___
 
 
 ## [2.0.2](https://github.com/buession/buession-parent/releases/tag/v2.0.2) (2022-07-25)
@@ -23,7 +23,7 @@ Buession Parent Changelog
 - [spring-retry](https://github.com/spring-projects/spring-retry) 版本升级至 1.3.3
 
 
-------
+---
 
 
 ## [2.0.1](https://github.com/buession/buession-parent/releases/tag/v2.0.1) (2022-07-17)
@@ -64,7 +64,7 @@ Buession Parent Changelog
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 修复 [CVE-2020-36518](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36518) 漏洞
 
 
-------
+---
 
 
 ## [2.0.0](https://github.com/buession/buession-parent/releases/tag/v2.0.0) (2022-07-05)

@@ -12,6 +12,11 @@ Buession Parent Changelog
 - [kotlin](https://kotlinlang.org/) 版本升级至 1.7.10
 
 
+### ⭐ 新特性
+
+- 引入 [jakarta.xml.bind::jakarta.xml.bind-api](https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api)
+
+
 ___
 
 

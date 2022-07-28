@@ -47,10 +47,10 @@
 		<project.java.version>1.8</project.java.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
   		<maven.compiler.target>1.8</maven.compiler.target>
-		<buession.version>2.0.2</buession.version>
-		<buession.security.version>2.0.2</buession.security.version>
-		<buession.springboot.version>2.0.2</buession.springboot.version>
-		<buession.springcloud.version>2.0.2</buession.springcloud.version>
+		<buession.version>2.0.3</buession.version>
+		<buession.security.version>2.0.3</buession.security.version>
+		<buession.springboot.version>2.0.3</buession.springboot.version>
+		<buession.springcloud.version>2.0.3</buession.springcloud.version>
 		<springframework.version>5.2.22.RELEASE</springframework.version>
 		<springframework.boot.version>2.3.12.RELEASE</springframework.boot.version>
 		<springframework.security.version>5.3.13.RELEASE</springframework.security.version>
@@ -413,6 +413,12 @@
 			    <groupId>jakarta.validation</groupId>
 			    <artifactId>jakarta.validation-api</artifactId>
 			    <version>2.0.2</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>jakarta.xml.bind</groupId>
+				<artifactId>jakarta.xml.bind-api</artifactId>
+				<version>2.3.3</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>

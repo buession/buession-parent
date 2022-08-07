@@ -2,12 +2,38 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.1.0](https://github.com/buession/buession-parent/releases/tag/v2.1.0) (2022-08-07)
+
+### 🔨依赖升级
+
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.9.2
+- [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.23.0
+- [hibernate-core](https://github.com/hibernate/hibernate-orm) 版本升级至 5.6.10.Final
+- [kotlin](https://kotlinlang.org/) 版本升级至 1.7.10
+
+
+### ⭐ 新特性
+
+- 引入 [jakarta.xml.bind::jakarta.xml.bind-api](https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api)
+
+
+### 🔔 变化
+
+- 移除 commons-collections、commons-digester、commons-io、commons-lang、commons-logging、commons-validator 依赖定义
+
+
+___
+
+
 ## [2.0.2](https://github.com/buession/buession-parent/releases/tag/v2.0.2) (2022-07-25)
 
 ### 🔨依赖升级
 
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.2.22.RELEASE
 - [spring-retry](https://github.com/spring-projects/spring-retry) 版本升级至 1.3.3
+
+
+---
 
 
 ## [2.0.1](https://github.com/buession/buession-parent/releases/tag/v2.0.1) (2022-07-17)
@@ -17,7 +43,7 @@ Buession Parent Changelog
 - [druid](https://github.com/alibaba/druid) 版本升级至 1.2.11
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.13.3
 - [guava](https://github.com/google/guava) 版本升级至 31.1
-- [io.micrometer](https://github.com/micrometer-metrics/micrometer ) 版本升级至 1.9.1
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.9.1
 - [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.10
 - [jakarta inject-api](https://github.com/eclipse-ee4j/injection-api) 版本升级至 1.0.5
 - [jakarta el-api](https://projects.eclipse.org/projects/ee4j.el) 版本升级至 3.0.4
@@ -46,6 +72,9 @@ Buession Parent Changelog
 - [kotlin](https://kotlinlang.org/) 修复 [CVE-2022-24329](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24329) 漏洞
 - [springframework](https://github.com/spring-projects/spring-framework) 修复 [CVE-2022-22968](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22968)、[CVE-2022-22970](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22970)、[CVE-2022-22971](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22971) 漏洞
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 修复 [CVE-2020-36518](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36518) 漏洞
+
+
+---
 
 
 ## [2.0.0](https://github.com/buession/buession-parent/releases/tag/v2.0.0) (2022-07-05)

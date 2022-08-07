@@ -17,6 +17,11 @@ Buession Parent Changelog
 - 引入 [jakarta.xml.bind::jakarta.xml.bind-api](https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api)
 
 
+### 🔔 变化
+
+- 移除 commons-collections、commons-digester、commons-io、commons-lang、commons-logging、commons-validator 依赖定义
+
+
 ___
 
 

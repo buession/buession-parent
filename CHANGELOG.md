@@ -2,6 +2,20 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.1.1](https://github.com/buession/buession-parent/releases/tag/v2.1.1) (2022-08-18)
+
+### 🔨依赖升级
+
+- [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.9.1
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.11
+- [tomcat-jdbc](https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc) 版本升级至 10.0.23
+- [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.24.0
+- [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 6.2.4.Final
+
+
+___
+
+
 ## [2.1.0](https://github.com/buession/buession-parent/releases/tag/v2.1.0) (2022-08-07)
 
 ### 🔨依赖升级

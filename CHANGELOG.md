@@ -2,6 +2,18 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.1.2](https://github.com/buession/buession-parent/releases/tag/v2.1.1) (2022-08-25)
+
+### 🔨依赖升级
+
+- [okhttp](https://square.github.io/okhttp/) 版本升级至 4.10.0
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.9.3
+- [glassfish jakarta.el](https://projects.eclipse.org/projects/ee4j.el) 版本升级至 3.0.4
+
+
+---
+
+
 ## [2.1.1](https://github.com/buession/buession-parent/releases/tag/v2.1.1) (2022-08-18)
 
 ### 🔨依赖升级
@@ -13,7 +25,7 @@ Buession Parent Changelog
 - [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 6.2.4.Final
 
 
-___
+---
 
 
 ## [2.1.0](https://github.com/buession/buession-parent/releases/tag/v2.1.0) (2022-08-07)
@@ -36,7 +48,7 @@ ___
 - 移除 commons-collections、commons-digester、commons-io、commons-lang、commons-logging、commons-validator 依赖定义
 
 
-___
+---
 
 
 ## [2.0.2](https://github.com/buession/buession-parent/releases/tag/v2.0.2) (2022-07-25)

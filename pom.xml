@@ -64,7 +64,7 @@
 		<pac4j.version>4.5.6</pac4j.version>
 		<velocity.tools.version>3.1</velocity.tools.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
-		<fasterxml.jackson.core.version>2.13.3</fasterxml.jackson.core.version>
+		<fasterxml.jackson.core.version>2.13.4.1</fasterxml.jackson.core.version>
 		<fasterxml.jackson.datatype.version>2.13.3</fasterxml.jackson.datatype.version>
 		<fasterxml.jackson.dataformat.version>2.13.3</fasterxml.jackson.dataformat.version>
 		<fasterxml.jackson.jaxrs.version>2.13.3</fasterxml.jackson.jaxrs.version>

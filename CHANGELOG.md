@@ -2,6 +2,35 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.1.2](https://github.com/buession/buession-parent/releases/tag/v2.1.1) (2022-11-xx)
+
+### 🔨依赖升级
+
+- [druid](https://github.com/alibaba/druid) 版本升级至 1.2.15
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.14.0
+- [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.10
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.12
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.10.1
+- [joda-time](https://www.joda.org/joda-time/) 版本升级至 2.12.1
+- [tomcat-jdbc](https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc) 版本升级至 10.1.2
+- [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.27.0
+- [kotlin](https://kotlinlang.org/) 版本升级至 1.7.21
+- [mapstruct](http://mapstruct.org/mapstruct/) 版本升级至 1.5.3.Final
+- [mongodb driver core](https://www.mongodb.com/) 版本升级至 4.8.0
+- [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.11
+- [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 1.33
+- [jedis](https://github.com/redis/jedis) 版本升级至 4.3.1
+- [apache shiro](https://github.com/apache/shiro) 版本升级至 1.10.0
+
+
+### 漏洞修复
+
+- [apache shiro](https://github.com/apache/shiro) 修复 [CVE-2022-40664](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40664) 漏洞
+
+
+---
+
+
 ## [2.1.2](https://github.com/buession/buession-parent/releases/tag/v2.1.1) (2022-08-25)
 
 ### 🔨依赖升级

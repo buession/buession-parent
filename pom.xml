@@ -65,7 +65,6 @@
 		<fasterxml.jackson.dataformat.version>2.14.0</fasterxml.jackson.dataformat.version>
 		<fasterxml.jackson.jaxrs.version>2.14.0</fasterxml.jackson.jaxrs.version>
 		<fasterxml.jackson.module.version>2.14.0</fasterxml.jackson.module.version>
-		<codehaus.jettison.version>1.4.0</codehaus.jettison.version>
 		<io.micrometer.version>1.10.1</io.micrometer.version>
 		<io.dropwizard.metrics.version>4.2.12</io.dropwizard.metrics.version>
 		<aspectj.version>1.9.9.1</aspectj.version>
@@ -164,6 +163,12 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webflux</artifactId>
+				<version>${springframework.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-websocket</artifactId>
 				<version>${springframework.version}</version>
 				<scope>compile</scope>
 			</dependency>
@@ -402,6 +407,12 @@
 			    <groupId>jakarta.servlet</groupId>
 			    <artifactId>jakarta.servlet-api</artifactId>
 			    <version>4.0.4</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+			    <groupId>jakarta.servlet.jsp</groupId>
+			    <artifactId>jakarta.servlet.jsp-api</artifactId>
+			    <version>2.3.6</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -740,6 +751,11 @@
 
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
+				<artifactId>jersey-core</artifactId>
+				<version>${sun.jersey.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-json</artifactId>
 				<version>${sun.jersey.version}</version>
 			</dependency>
@@ -753,6 +769,11 @@
 						<artifactId>jsr311-api</artifactId>
 					</exclusion>
 				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>com.sun.jersey</groupId>
+				<artifactId>jersey-server</artifactId>
+				<version>${sun.jersey.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>

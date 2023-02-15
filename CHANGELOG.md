@@ -9,7 +9,7 @@ Buession Parent Changelog
 - [druid](https://github.com/alibaba/druid) 版本升级至 1.2.15
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.14.0
 - [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.10
-- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.12
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.15
 - [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.10.1
 - [joda-time](https://www.joda.org/joda-time/) 版本升级至 2.12.1
 - [tomcat-jdbc](https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc) 版本升级至 10.1.2
@@ -21,6 +21,13 @@ Buession Parent Changelog
 - [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 1.33
 - [jedis](https://github.com/redis/jedis) 版本升级至 4.3.1
 - [apache shiro](https://github.com/apache/shiro) 版本升级至 1.10.0
+
+
+### ⭐ 新特性
+
+- 引入 [mysql-connector-java](http://dev.mysql.com/doc/connector-j/en/)
+- 引入 [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc)
+- 引入 [netty](https://netty.io/)
 
 
 ### 漏洞修复

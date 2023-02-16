@@ -8,7 +8,7 @@ Buession Parent Changelog
 
 - [druid](https://github.com/alibaba/druid) 版本升级至 1.2.15
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.14.0
-- [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.10
+- [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.11
 - [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.15
 - [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.10.1
 - [joda-time](https://www.joda.org/joda-time/) 版本升级至 2.12.1
@@ -20,7 +20,7 @@ Buession Parent Changelog
 - [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.11
 - [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 1.33
 - [jedis](https://github.com/redis/jedis) 版本升级至 4.3.1
-- [apache shiro](https://github.com/apache/shiro) 版本升级至 1.10.0
+- [apache shiro](https://github.com/apache/shiro) 版本升级至 1.11.0
 
 
 ### ⭐ 新特性
@@ -32,7 +32,7 @@ Buession Parent Changelog
 
 ### 漏洞修复
 
-- [apache shiro](https://github.com/apache/shiro) 修复 [CVE-2022-40664](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40664) 漏洞
+- [apache shiro](https://github.com/apache/shiro) 修复 [CVE-2022-40664](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40664) 、 [CVE-2022-41853](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41853) 、 [CVE-2022-41853](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41853) 漏洞
 
 
 ---

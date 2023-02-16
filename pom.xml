@@ -674,6 +674,12 @@
 			    <groupId>commons-digester</groupId>
 			    <artifactId>commons-digester</artifactId>
 			    <version>2.1</version>
+			    <exclusions>
+					<exclusion>
+						<groupId>commons-logging</groupId>
+						<artifactId>commons-logging</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 			    <groupId>commons-io</groupId>
@@ -861,6 +867,11 @@
 			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>
 				<artifactId>jersey-apache-client4</artifactId>
+				<version>${sun.jersey.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sun.jersey.contribs</groupId>
+				<artifactId>jersey-guice</artifactId>
 				<version>${sun.jersey.version}</version>
 			</dependency>
 

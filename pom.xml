@@ -7,7 +7,7 @@
 	<artifactId>parent</artifactId>
 	<url>https://github.com/buession/buession-parent</url>
 	<description>Buession Parent</description>
-	<version>2.1.2</version>
+	<version>2.2.0</version>
 	<packaging>pom</packaging>
 
 	<organization>
@@ -43,38 +43,35 @@
 	</scm>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.encoding>UTF-8</project.build.encoding>
 		<project.java.version>1.8</project.java.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
   		<maven.compiler.target>1.8</maven.compiler.target>
-		<buession.version>2.1.1</buession.version>
-		<buession.security.version>2.1.1</buession.security.version>
-		<buession.springboot.version>2.1.1</buession.springboot.version>
-		<buession.springcloud.version>2.1.1</buession.springcloud.version>
-		<buession.cas.version>2.1.1</buession.cas.version>
 		<springframework.version>5.2.22.RELEASE</springframework.version>
 		<springframework.boot.version>2.3.12.RELEASE</springframework.boot.version>
 		<springframework.security.version>5.3.13.RELEASE</springframework.security.version>
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
-		<kotlin.version>1.7.10</kotlin.version>
-		<mongodb.version>4.6.1</mongodb.version>
+		<kotlin.version>1.7.21</kotlin.version>
 		<okhttp3.version>4.10.0</okhttp3.version>
-		<shiro.version>1.9.1</shiro.version>
+		<shiro.version>1.11.0</shiro.version>
 		<pac4j.version>4.5.6</pac4j.version>
 		<velocity.tools.version>3.1</velocity.tools.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
-		<fasterxml.jackson.core.version>2.13.3</fasterxml.jackson.core.version>
-		<fasterxml.jackson.datatype.version>2.13.3</fasterxml.jackson.datatype.version>
-		<fasterxml.jackson.dataformat.version>2.13.3</fasterxml.jackson.dataformat.version>
-		<fasterxml.jackson.jaxrs.version>2.13.3</fasterxml.jackson.jaxrs.version>
-		<fasterxml.jackson.module.version>2.13.3</fasterxml.jackson.module.version>
-		<codehaus.jettison.version>1.4.0</codehaus.jettison.version>
-		<io.micrometer.version>1.9.3</io.micrometer.version>
-		<io.dropwizard.metrics.version>4.2.11</io.dropwizard.metrics.version>
+		<mongodb.version>4.8.0</mongodb.version>
+		<netty.version>4.1.89.Final</netty.version>
+		<fasterxml.jackson.core.version>2.14.0</fasterxml.jackson.core.version>
+		<fasterxml.jackson.datatype.version>2.14.0</fasterxml.jackson.datatype.version>
+		<fasterxml.jackson.dataformat.version>2.14.0</fasterxml.jackson.dataformat.version>
+		<fasterxml.jackson.jaxrs.version>2.14.0</fasterxml.jackson.jaxrs.version>
+		<fasterxml.jackson.module.version>2.14.0</fasterxml.jackson.module.version>
+		<codehaus.jackson.version>1.9.13</codehaus.jackson.version>
+		<io.micrometer.version>1.10.1</io.micrometer.version>
+		<io.dropwizard.metrics.version>4.2.15</io.dropwizard.metrics.version>
 		<aspectj.version>1.9.9.1</aspectj.version>
 		<org.bouncycastle.version>1.70</org.bouncycastle.version>
-		<mapstruct.version>1.5.2.Final</mapstruct.version>
+		<mapstruct.version>1.5.3.Final</mapstruct.version>
 		<slf4j.version>1.7.36</slf4j.version>
 		<apache.logging.log4j.version>2.18.0</apache.logging.log4j.version>
 	</properties>
@@ -168,6 +165,12 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webflux</artifactId>
+				<version>${springframework.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-websocket</artifactId>
 				<version>${springframework.version}</version>
 				<scope>compile</scope>
 			</dependency>
@@ -312,6 +315,12 @@
 				<groupId>org.springframework.security</groupId>
 				<artifactId>spring-security-rsa</artifactId>
 				<version>1.0.11.RELEASE</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.springframework</groupId>
+						<artifactId>spring-core</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.security</groupId>
@@ -409,6 +418,12 @@
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
+			    <groupId>jakarta.servlet.jsp</groupId>
+			    <artifactId>jakarta.servlet.jsp-api</artifactId>
+			    <version>2.3.6</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
 			    <groupId>jakarta.transaction</groupId>
 			    <artifactId>jakarta.transaction-api</artifactId>
 			    <version>1.3.3</version>
@@ -435,7 +450,7 @@
 			<dependency>
 			    <groupId>jakarta.ws.rs</groupId>
 			    <artifactId>jakarta.ws.rs-api</artifactId>
-			    <version>3.0.0</version>
+			    <version>2.1.6</version>
 				<scope>compile</scope>
 			</dependency>
 
@@ -465,7 +480,7 @@
 			<dependency>
 			    <groupId>org.apache.tomcat</groupId>
 			    <artifactId>tomcat-jdbc</artifactId>
-			    <version>10.0.23</version>
+			    <version>10.1.2</version>
       			<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -483,14 +498,14 @@
 			<dependency>
     			<groupId>com.alibaba</groupId>
     			<artifactId>druid</artifactId>
-    			<version>1.2.11</version>
+    			<version>1.2.15</version>
       			<scope>compile</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
-				<version>3.5.10</version>
+				<version>3.5.11</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -510,6 +525,18 @@
 				<artifactId>mybatis-typehandlers-threeten-extra</artifactId>
 				<version>1.0.0</version>
 				<scope>compile</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>8.0.23</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.microsoft.sqlserver</groupId>
+				<artifactId>mssql-jdbc</artifactId>
+				<version>11.2.3.jre8</version>
 			</dependency>
 
 			<dependency>
@@ -587,6 +614,17 @@
 				<version>3.12.0</version>
 			</dependency>
 			<dependency>
+			    <groupId>commons-configuration</groupId>
+			    <artifactId>commons-configuration</artifactId>
+			    <version>1.10</version>
+			    <exclusions>
+					<exclusion>
+						<groupId>commons-logging</groupId>
+						<artifactId>commons-logging</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
     			<groupId>org.apache.commons</groupId>
     			<artifactId>commons-collections4</artifactId>
     			<version>4.4</version>
@@ -619,6 +657,11 @@
 			</dependency>
 
 			<dependency>
+				<groupId>commons-codec</groupId>
+				<artifactId>commons-codec</artifactId>
+				<version>1.15</version>
+			</dependency>
+			<dependency>
     			<groupId>commons-attributes</groupId>
     			<artifactId>commons-attributes-api</artifactId>
     			<version>${commons.attributes.version}</version>
@@ -634,15 +677,72 @@
 				<version>1.9.4</version>
 			</dependency>
 			<dependency>
-				<groupId>commons-codec</groupId>
-				<artifactId>commons-codec</artifactId>
-				<version>1.15</version>
+			    <groupId>commons-digester</groupId>
+			    <artifactId>commons-digester</artifactId>
+			    <version>2.1</version>
+			    <exclusions>
+					<exclusion>
+						<groupId>commons-logging</groupId>
+						<artifactId>commons-logging</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+			    <groupId>commons-io</groupId>
+			    <artifactId>commons-io</artifactId>
+			    <version>2.11.0</version>
+			</dependency>
+			<dependency>
+			    <groupId>commons-cli</groupId>
+			    <artifactId>commons-cli</artifactId>
+			    <version>1.5.0</version>
+			</dependency>
+
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-all</artifactId>
+			    <version>${netty.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-common</artifactId>
+			    <version>${netty.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-handler</artifactId>
+			    <version>${netty.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-handler-proxy</artifactId>
+			    <version>${netty.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-codec-http</artifactId>
+			    <version>${netty.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-codec-http2</artifactId>
+			    <version>${netty.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-transport</artifactId>
+			    <version>${netty.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>io.netty</groupId>
+			    <artifactId>netty-transport-native-epoll</artifactId>
+			    <version>${netty.version}</version>
 			</dependency>
 
 			<dependency>
 			    <groupId>redis.clients</groupId>
 			    <artifactId>jedis</artifactId>
-			    <version>4.2.3</version>
+			    <version>4.3.1</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -655,7 +755,7 @@
 			<dependency>
 				<groupId>joda-time</groupId>
 				<artifactId>joda-time</artifactId>
-				<version>2.10.14</version>
+				<version>2.12.1</version>
 			</dependency>
 			<dependency>
     			<groupId>com.fasterxml</groupId>
@@ -670,7 +770,7 @@
 			<dependency>
     			<groupId>org.checkerframework</groupId>
     			<artifactId>checker-qual</artifactId>
-    			<version>3.24.0</version>
+    			<version>3.27.0</version>
 			</dependency>
 			<dependency>
 			    <groupId>cglib</groupId>
@@ -744,8 +844,25 @@
 
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
+				<artifactId>jersey-core</artifactId>
+				<version>${sun.jersey.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.ws.rs</groupId>
+						<artifactId>jsr311-api</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>com.sun.jersey</groupId>
 				<artifactId>jersey-json</artifactId>
 				<version>${sun.jersey.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>javax.xml.bind</groupId>
+						<artifactId>jaxb-api</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
@@ -759,8 +876,18 @@
 				</exclusions>
 			</dependency>
 			<dependency>
+				<groupId>com.sun.jersey</groupId>
+				<artifactId>jersey-server</artifactId>
+				<version>${sun.jersey.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>com.sun.jersey.contribs</groupId>
 				<artifactId>jersey-apache-client4</artifactId>
+				<version>${sun.jersey.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sun.jersey.contribs</groupId>
+				<artifactId>jersey-guice</artifactId>
 				<version>${sun.jersey.version}</version>
 			</dependency>
 
@@ -987,7 +1114,7 @@
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
-				<version>1.30</version>
+				<version>1.33</version>
 			</dependency>
 
 			<dependency>
@@ -1105,6 +1232,29 @@
 			</dependency>
 			<!-- fasterxml jackson end -->
 
+			<!-- codehaus jackson start -->
+			<dependency>
+			    <groupId>org.codehaus.jackson</groupId>
+			    <artifactId>jackson-core-asl</artifactId>
+			    <version>${codehaus.jackson.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.codehaus.jackson</groupId>
+			    <artifactId>jackson-mapper-asl</artifactId>
+			    <version>${codehaus.jackson.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.codehaus.jackson</groupId>
+			    <artifactId>jackson-jaxrs</artifactId>
+			    <version>${codehaus.jackson.version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.codehaus.jackson</groupId>
+			    <artifactId>jackson-xc</artifactId>
+			    <version>${codehaus.jackson.version}</version>
+			</dependency>
+			<!-- codehaus jackson end -->
+
 			<dependency>
 			    <groupId>com.alibaba</groupId>
 			    <artifactId>fastjson</artifactId>
@@ -1114,7 +1264,7 @@
 			<dependency>
 			    <groupId>com.google.code.gson</groupId>
 			    <artifactId>gson</artifactId>
-			    <version>2.9.1</version>
+			    <version>2.10.1</version>
 			</dependency>
 
 			<dependency>
@@ -1155,6 +1305,12 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>jul-to-slf4j</artifactId>
+				<version>${slf4j.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>log4j-over-slf4j</artifactId>
 				<version>${slf4j.version}</version>
 				<scope>compile</scope>
 			</dependency>

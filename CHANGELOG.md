@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [2.1.2](https://github.com/buession/buession-parent/releases/tag/v2.1.1) (2023-02-27)
+## [2.2.0](https://github.com/buession/buession-parent/releases/tag/v2.2.0) (2023-02-27)
 
 ### 🔨依赖升级
 

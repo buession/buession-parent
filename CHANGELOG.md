@@ -6,6 +6,31 @@ Buession Parent Changelog
 
 ### 🔨依赖升级
 
+- [druid](https://github.com/alibaba/druid) 版本升级至 1.2.16
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.14.2
+- [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc) 版本升级至 12.2.0
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.17
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.10.4
+- [apache httpcomponents httpcore](http://hc.apache.org/httpcomponents-core-ga) 版本升级至 4.4.16
+- [apache httpcomponents httpclient](http://hc.apache.org/httpcomponents-core-ga) 版本升级至 4.5.14
+- [apache httpcomponents httpmime](http://hc.apache.org/httpcomponents-core-ga) 版本升级至 4.5.14
+- [tomcat-jdbc](https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc) 版本升级至 10.1.7
+- [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.19
+- [spring-retry](https://github.com/spring-projects/spring-retry) 版本升级至 1.3.4
+- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 4.5.7
+- [mongodb-driver-core](https://github.com/mongodb/mongo-java-driver) 版本升级至 4.9.0
+- [kotlin](https://kotlinlang.org/) 版本升级至 1.7.22
+- [hibernate-core](https://github.com/hibernate/hibernate-orm) 版本升级至 5.6.15.Final
+- [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 6.2.5.Final
+
+
+---
+
+
+## [2.2.0](https://github.com/buession/buession-parent/releases/tag/v2.2.0) (2023-02-27)
+
+### 🔨依赖升级
+
 - [druid](https://github.com/alibaba/druid) 版本升级至 1.2.15
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.14.0
 - [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.11

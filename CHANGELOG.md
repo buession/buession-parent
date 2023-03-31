@@ -2,6 +2,14 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.3.0](https://github.com/buession/buession-parent/releases/tag/v2.3.0) (2023-xx-xx)
+
+### 🔨依赖升级
+
+
+---
+
+
 ## [2.2.1](https://github.com/buession/buession-parent/releases/tag/v2.2.1) (2023-03-31)
 
 ### 🔨依赖升级

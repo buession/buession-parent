@@ -642,6 +642,11 @@
 			</dependency>
 
 			<dependency>
+			    <groupId>org.apache.httpcomponents</groupId>
+			    <artifactId>httpmime</artifactId>
+			    <version>4.5.14</version>
+			</dependency>
+			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>httpcore</artifactId>
 				<version>4.4.16</version>
@@ -662,19 +667,14 @@
 			    <version>4.1.5</version>
 			</dependency>
 			<dependency>
-			    <groupId>org.apache.httpcomponents</groupId>
-			    <artifactId>httpmime</artifactId>
-			    <version>4.5.14</version>
-			</dependency>
-			<dependency>
 			    <groupId>org.apache.httpcomponents.core5</groupId>
 			    <artifactId>httpcore5</artifactId>
-			    <version>5.2.1</version>
+			    <version>${apache.httpcomponents5.version}</version>
 			</dependency>
 			<dependency>
 			    <groupId>org.apache.httpcomponents.client5</groupId>
 			    <artifactId>httpclient5</artifactId>
-			    <version>5.2.1</version>
+			    <version>${apache.httpcomponents5.version}</version>
 			</dependency>
 
 			<dependency>
@@ -1394,7 +1394,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.10.1</version>
+					<version>3.11.0</version>
 					<configuration>
 						<encoding>${project.build.encoding}</encoding>
 						<source>${project.java.version}</source>
@@ -1405,7 +1405,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-jar-plugin</artifactId>
-					<version>3.2.2</version>
+					<version>3.3.0</version>
 					<configuration>
 						<archive>
 							<manifest>
@@ -1434,7 +1434,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-javadoc-plugin</artifactId>
-					<version>3.4.0</version>
+					<version>3.5.0</version>
 					<configuration>
 						<charset>${project.build.encoding}</charset>
 						<encoding>${project.build.encoding}</encoding>
@@ -1460,7 +1460,7 @@
 				<plugin>
 	                <groupId>org.apache.maven.plugins</groupId>
 	                <artifactId>maven-checkstyle-plugin</artifactId>
-	                <version>3.1.2</version>
+	                <version>3.2.1</version>
 	                <configuration>
 	                    <configLocation>${project.basedir}/../checkstyle.xml</configLocation>
 	                    <encoding>${project.build.encoding}</encoding>
@@ -1483,7 +1483,7 @@
 	            <plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.22.2</version>
+					<version>3.0.0</version>
 					<configuration>
 						<includes>
 							<include>**/*Tests.java</include>
@@ -1494,7 +1494,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.5.3</version>
+					<version>3.0.0</version>
 					<configuration>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
 						<useReleaseProfile>false</useReleaseProfile>
@@ -1505,7 +1505,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
-					<version>1.6</version>
+					<version>3.0.1</version>
 					<executions>
 						<execution>
 							<id>sign-artifacts</id>

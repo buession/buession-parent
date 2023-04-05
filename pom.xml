@@ -54,6 +54,7 @@
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
 		<kotlin.version>1.7.22</kotlin.version>
+		<apache.httpcomponents5.version>5.2.1</apache.httpcomponents5.version>
 		<okhttp3.version>4.10.0</okhttp3.version>
 		<shiro.version>1.11.0</shiro.version>
 		<pac4j.version>4.5.7</pac4j.version>
@@ -664,6 +665,16 @@
 			    <groupId>org.apache.httpcomponents</groupId>
 			    <artifactId>httpmime</artifactId>
 			    <version>4.5.14</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.apache.httpcomponents.core5</groupId>
+			    <artifactId>httpcore5</artifactId>
+			    <version>5.2.1</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.apache.httpcomponents.client5</groupId>
+			    <artifactId>httpclient5</artifactId>
+			    <version>5.2.1</version>
 			</dependency>
 
 			<dependency>

@@ -21,11 +21,12 @@ Buession Parent Changelog
 
 - 引入 [apache httpcomponents httpasyncclient](http://hc.apache.org/httpcomponents-asyncclient)
 - 引入 [apache httpcomponents httpcore-nio](http://hc.apache.org/httpcomponents-core-ga)
+- 引入 [apache httpcomponents 5](https://hc.apache.org/httpcomponents-client-5.2.x/)
 
 
 ### 漏洞修复
 
-- [mysql-connector-java](http://dev.mysql.com/doc/connector-j/en/) 修复 [CVE-2021-2471](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2471) 、 [CVE-2022-21363](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21363) 、 [CVE-2022-41853](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41853) 漏洞
+- [mysql-connector-java](http://dev.mysql.com/doc/connector-j/en/) 修复 [CVE-2021-2471](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2471) 、 [CVE-2022-21363](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21363) 漏洞
 
 
 ---

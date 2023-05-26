@@ -286,6 +286,18 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-cassandra</artifactId>
+				<version>3.0.9.RELEASE</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.data</groupId>
+    			<artifactId>spring-data-elasticsearch</artifactId>
+    			<version>4.0.9.RELEASE</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-mongodb</artifactId>
 				<version>3.0.9.RELEASE</version>
 				<scope>compile</scope>
@@ -296,29 +308,11 @@
 				<version>2.3.9.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
-			<dependency>
-				<groupId>org.springframework.data</groupId>
-				<artifactId>spring-data-cassandra</artifactId>
-				<version>3.0.9.RELEASE</version>
-				<scope>compile</scope>
-			</dependency>
 
 			<dependency>
 				<groupId>org.springframework.session</groupId>
 				<artifactId>spring-session-core</artifactId>
 				<version>${springframework.session.version}</version>
-				<scope>compile</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.session</groupId>
-				<artifactId>spring-session-data-redis</artifactId>
-				<version>${springframework.session.version}</version>
-				<scope>compile</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.session</groupId>
-				<artifactId>spring-session-data-mongodb</artifactId>
-				<version>2.3.2.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -336,6 +330,18 @@
 			<dependency>
 				<groupId>org.springframework.session</groupId>
 				<artifactId>spring-session-jdbc</artifactId>
+				<version>${springframework.session.version}</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.session</groupId>
+				<artifactId>spring-session-data-mongodb</artifactId>
+				<version>2.3.2.RELEASE</version>
+				<scope>compile</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.session</groupId>
+				<artifactId>spring-session-data-redis</artifactId>
 				<version>${springframework.session.version}</version>
 				<scope>compile</scope>
 			</dependency>

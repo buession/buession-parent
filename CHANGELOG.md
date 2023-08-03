@@ -21,7 +21,7 @@ Buession Parent Changelog
 
 - 引入 [apache httpcomponents httpasyncclient](http://hc.apache.org/httpcomponents-asyncclient)
 - 引入 [apache httpcomponents httpcore-nio](http://hc.apache.org/httpcomponents-core-ga)
-- 引入 [pache httpcomponents httpclient-cache](http://hc.apache.org/httpcomponents-client-ga)
+- 引入 [apache httpcomponents httpclient-cache](http://hc.apache.org/httpcomponents-client-ga)
 - 引入 [apache httpcomponents 5](https://hc.apache.org/httpcomponents-client-5.2.x/)
 - 引入 [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/)
 - 引入 [mongodb-driver-sync](https://www.mongodb.com/)
@@ -33,6 +33,7 @@ Buession Parent Changelog
 - 引入 [commons-text](https://commons.apache.org/proper/commons-text)
 - 引入 [commons-jexl3](https://commons.apache.org/proper/commons-jexl/)
 - 引入 [objectweb asm](http://asm.ow2.io/)
+- 引入 [rabbitmq amqp-client](https://www.rabbitmq.com)
 
 
 ### 漏洞修复

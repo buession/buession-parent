@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [2.3.0](https://github.com/buession/buession-parent/releases/tag/v2.3.0) (2023-xx-xx)
+## [2.3.0](https://github.com/buession/buession-parent/releases/tag/v2.3.0) (2023-08-15)
 
 ### 🔨依赖升级
 - [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.18

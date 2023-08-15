@@ -2,6 +2,48 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.3.0](https://github.com/buession/buession-parent/releases/tag/v2.3.0) (2023-08-15)
+
+### 🔨依赖升级
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.18
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.10.5
+- [joda-time](https://www.joda.org/joda-time/) 版本升级至 2.12.5
+- [mysql-connector-java](http://dev.mysql.com/doc/connector-j/en/) 版本升级至 8.0.32
+- [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.33.0
+- [jedis](https://github.com/redis/jedis) 版本升级至 4.3.2
+- [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.13
+- [mybatis-spring](https://github.com/mybatis/spring) 版本升级至 2.1.0
+- [dom4j](http://dom4j.github.io/) 版本升级至 2.1.4
+- [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.20.0
+
+
+### ⭐ 新特性
+
+- 引入 [apache httpcomponents httpasyncclient](http://hc.apache.org/httpcomponents-asyncclient)
+- 引入 [apache httpcomponents httpcore-nio](http://hc.apache.org/httpcomponents-core-ga)
+- 引入 [apache httpcomponents httpclient-cache](http://hc.apache.org/httpcomponents-client-ga)
+- 引入 [apache httpcomponents 5](https://hc.apache.org/httpcomponents-client-5.2.x/)
+- 引入 [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/)
+- 引入 [mongodb-driver-sync](https://www.mongodb.com/)
+- 引入 [spring-data-cassandra](https://github.com/spring-projects/spring-data-cassandra)
+- 引入 [spring-data-elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch)
+- 引入 [spring-session-data-mongodb](https://spring.io/projects/spring-session)
+- 引入 [spring-session-hazelcast](https://spring.io/projects/spring-session)
+- 引入 [spring-session-jdbc](https://spring.io/projects/spring-session)
+- 引入 [commons-text](https://commons.apache.org/proper/commons-text)
+- 引入 [commons-jexl3](https://commons.apache.org/proper/commons-jexl/)
+- 引入 [objectweb asm](http://asm.ow2.io/)
+- 引入 [rabbitmq amqp-client](https://www.rabbitmq.com)
+
+
+### 漏洞修复
+
+- [mysql-connector-java](http://dev.mysql.com/doc/connector-j/en/) 修复 [CVE-2021-2471](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2471) 、 [CVE-2022-21363](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21363) 漏洞
+
+
+---
+
+
 ## [2.2.1](https://github.com/buession/buession-parent/releases/tag/v2.2.1) (2023-03-31)
 
 ### 🔨依赖升级

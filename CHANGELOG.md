@@ -36,6 +36,7 @@ Buession Parent Changelog
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.2.25.RELEASE
 - [jedis](https://github.com/redis/jedis) 版本升级至 4.4.3
 - [spring-security-rsa](http://github.com/spring-projects/spring-security-oauth) 版本升级至 1.0.12
+- [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.76
 
 
 ### 漏洞修复

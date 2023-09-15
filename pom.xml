@@ -74,7 +74,7 @@
 		<io.micrometer.version>1.11.3</io.micrometer.version>
 		<io.dropwizard.metrics.version>4.2.19</io.dropwizard.metrics.version>
 		<aspectj.version>1.9.20</aspectj.version>
-		<org.bouncycastle.version>1.70</org.bouncycastle.version>
+		<org.bouncycastle.version>1.76</org.bouncycastle.version>
 		<org.objectweb.asm.version>9.5</org.objectweb.asm.version>
 		<mapstruct.version>1.5.5.Final</mapstruct.version>
 		<slf4j.version>1.7.36</slf4j.version>
@@ -999,12 +999,12 @@
 
 			<dependency>
     			<groupId>org.bouncycastle</groupId>
-    			<artifactId>bcprov-jdk15on</artifactId>
+    			<artifactId>bcprov-jdk18on</artifactId>
     			<version>${org.bouncycastle.version}</version>
 			</dependency>
 			<dependency>
     			<groupId>org.bouncycastle</groupId>
-    			<artifactId>bcpkix-jdk15on</artifactId>
+    			<artifactId>bcpkix-jdk18on</artifactId>
     			<version>${org.bouncycastle.version}</version>
 			</dependency>
 

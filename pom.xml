@@ -641,6 +641,18 @@
 			</dependency>
 
 			<dependency>
+			    <groupId>org.apache.zookeeper</groupId>
+			    <artifactId>zookeeper</artifactId>
+			    <version>3.9.1</version>
+			    <exclusions>
+					<exclusion>
+						<groupId>ch.qos.logback</groupId>
+						<artifactId>*</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+
+			<dependency>
 			    <groupId>com.rabbitmq</groupId>
 			    <artifactId>amqp-client</artifactId>
 			    <version>5.18.0</version>
@@ -712,6 +724,11 @@
 				<groupId>com.google.code.findbugs</groupId>
 				<artifactId>jsr305</artifactId>
 				<version>3.0.2</version>
+			</dependency>
+			<dependency>
+			    <groupId>com.google.protobuf</groupId>
+			    <artifactId>protobuf-java</artifactId>
+			    <version>3.24.4</version>
 			</dependency>
 
 			<dependency>

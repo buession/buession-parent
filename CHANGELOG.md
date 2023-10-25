@@ -39,6 +39,12 @@ Buession Parent Changelog
 - [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.76
 
 
+### ⭐ 新特性
+
+- 引入 [zookeeper](https://github.com/apache/zookeeper)
+- 引入 [google protobuf](https://github.com/google/protobuf-java)
+
+
 ### 漏洞修复
 
 - [guava](https://github.com/google/guava) 修复 [CVE-2023-2976](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2976) 漏洞

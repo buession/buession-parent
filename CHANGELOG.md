@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [2.3.1](https://github.com/buession/buession-parent/releases/tag/v2.3.1) (2023-xx-xx)
+## [2.3.1](https://github.com/buession/buession-parent/releases/tag/v2.3.1) (2023-11-16)
 
 ### 🔨依赖升级
 - [druid](https://github.com/alibaba/druid) 版本升级至 1.2.18

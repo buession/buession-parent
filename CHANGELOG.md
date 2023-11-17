@@ -2,6 +2,49 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.3.2](https://github.com/buession/buession-parent/releases/tag/v2.3.2) (2023-xx-xx)
+
+### 🔨依赖升级
+- [druid](https://github.com/alibaba/druid) 版本升级至 1.2.20
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.16.0
+- [guava](https://github.com/google/guava) 版本升级至 32.1.3-jre
+- [google protobuf](https://github.com/google/protobuf-java) 版本升级至 3.25.1
+- [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc) 版本升级至 12.4.2.jre8
+- [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/) 版本升级至 8.2.0
+- [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.20.0
+- [rabbitmq http-client](https://www.rabbitmq.com) 版本升级至 5.2.0
+- [okhttp3](https://square.github.io/okhttp/) 版本升级至 4.12.0
+- [commons-cli](https://commons.apache.org/proper/commons-cli/) 版本升级至 1.6.0
+- [commons-io ](https://commons.apache.org/proper/commons-io/) 版本升级至 2.15.0
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.22
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.12.0
+- [netty](https://netty.io/) 版本升级至 4.1.101.Final
+- [rxjava](https://github.com/ReactiveX/RxJava) 版本升级至 3.1.8
+- [commons-dbcp2](https://commons.apache.org/dbcp/) 版本升级至 2.11.0
+- [commons-text](https://commons.apache.org/proper/commons-text) 版本升级至 2.11.0
+- [commons-pool2](https://commons.apache.org/proper/commons-pool/) 版本升级至 2.12.0
+- [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.21.1
+- [apache shiro](https://github.com/apache/shiro) 版本升级至 1.13.0
+- [tomcat-jdbc](https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc) 版本升级至 10.1.16
+- [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.20.1
+- [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.77
+- [jetbrains annotations](https://github.com/JetBrains/java-annotations) 版本升级至 24.1.0
+- [kotlin](https://kotlinlang.org/) 版本升级至 1.9.20
+- [mongodb-driver-core](https://github.com/mongodb/mongo-java-driver) 版本升级至 4.11.1
+- [mongodb-driver-sync](https://github.com/mongodb/mongo-java-driver) 版本升级至 4.11.1
+- [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.14
+- [objectweb asm](http://asm.ow2.io/) 版本升级至 9.6
+- [jedis](https://github.com/redis/jedis) 版本升级至 4.4.6
+
+
+### 漏洞修复
+
+- [netty](https://netty.io/) 修复 [CVE-2023-4586](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4586) 漏洞
+
+
+---
+
+
 ## [2.3.1](https://github.com/buession/buession-parent/releases/tag/v2.3.1) (2023-11-16)
 
 ### 🔨依赖升级

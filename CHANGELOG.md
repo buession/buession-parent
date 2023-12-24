@@ -23,7 +23,6 @@ Buession Parent Changelog
 - [commons-dbcp2](https://commons.apache.org/dbcp/) 版本升级至 2.11.0
 - [commons-text](https://commons.apache.org/proper/commons-text) 版本升级至 2.11.0
 - [commons-pool2](https://commons.apache.org/proper/commons-pool/) 版本升级至 2.12.0
-- [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.21.1
 - [apache shiro](https://github.com/apache/shiro) 版本升级至 1.13.0
 - [tomcat-jdbc](https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc) 版本升级至 10.1.16
 - [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.20.1

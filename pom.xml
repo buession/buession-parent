@@ -78,7 +78,7 @@
 		<org.objectweb.asm.version>9.6</org.objectweb.asm.version>
 		<mapstruct.version>1.5.5.Final</mapstruct.version>
 		<slf4j.version>1.7.36</slf4j.version>
-		<apache.logging.log4j.version>2.21.1</apache.logging.log4j.version>
+		<apache.logging.log4j.version>2.20.0</apache.logging.log4j.version>
 	</properties>
 
 	<dependencyManagement>

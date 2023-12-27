@@ -2,6 +2,20 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.3.3](https://github.com/buession/buession-parent/releases/tag/v2.3.3) (2024-xx-xx)
+
+### 🔨依赖升级
+- [druid](https://github.com/alibaba/druid) 版本升级至 1.2.20
+
+
+### 漏洞修复
+
+- [netty](https://netty.io/) 修复 [CVE-2023-4586](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4586) 漏洞
+
+
+---
+
+
 ## [2.3.2](https://github.com/buession/buession-parent/releases/tag/v2.3.2) (2023-12-25)
 
 ### 🔨依赖升级

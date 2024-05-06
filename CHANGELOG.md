@@ -2,6 +2,38 @@ Buession Parent Changelog
 ===========================
 
 
+## [2.3.3](https://github.com/buession/buession-parent/releases/tag/v2.3.3) (2024-05-06)
+
+### 🔨依赖升级
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.16.1
+- [guava](https://github.com/google/guava) 版本升级至 33.0.0-jre
+- [commons-io ](https://commons.apache.org/proper/commons-io/) 版本升级至 2.15.1
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.23
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.12.1
+- [netty](https://netty.io/) 版本升级至 4.1.104.Final
+- [apache commons-lang3](https://commons.apache.org/proper/commons-lang/) 版本升级至 3.14.0
+- [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 10.1.17
+- [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.21
+- [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.42.0
+- [kotlin](https://kotlinlang.org/) 版本升级至 1.9.22
+- [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.15
+- [mybatis-spring](https://github.com/mybatis/spring) 版本升级至 2.1.2
+- [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.21.1
+
+
+### ⭐ 新特性
+
+- 引入 [fastjson2](https://github.com/alibaba/fastjson2)
+
+
+### 🔔 变化
+
+- 移除 org.codehaus.jackson
+
+
+---
+
+
 ## [2.3.2](https://github.com/buession/buession-parent/releases/tag/v2.3.2) (2023-12-25)
 
 ### 🔨依赖升级

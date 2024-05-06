@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [2.3.3](https://github.com/buession/buession-parent/releases/tag/v2.3.3) (2024-xx-xx)
+## [2.3.3](https://github.com/buession/buession-parent/releases/tag/v2.3.3) (2024-05-06)
 
 ### 🔨依赖升级
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.16.1

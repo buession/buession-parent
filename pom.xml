@@ -636,6 +636,12 @@
 				<groupId>org.apache.rocketmq</groupId>
 				<artifactId>rocketmq-acl</artifactId>
 				<version>${rocketmq.version}</version>
+			    <exclusions>
+					<exclusion>
+						<groupId>com.google.android</groupId>
+						<artifactId>annotations</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 
 			<dependency>
@@ -776,6 +782,11 @@
 			    <artifactId>commons-digester3</artifactId>
 			    <version>3.2</version>
 			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-math3</artifactId>
+				<version>3.6.1</version>
+			</dependency>
 
 			<dependency>
 			    <groupId>org.apache.httpcomponents</groupId>
@@ -860,6 +871,11 @@
 						<artifactId>commons-logging</artifactId>
 					</exclusion>
 				</exclusions>
+			</dependency>
+			<dependency>
+			    <groupId>commons-daemon</groupId>
+			    <artifactId>commons-daemon</artifactId>
+			    <version>1.4.0</version>
 			</dependency>
 			<dependency>
 			    <groupId>commons-io</groupId>
@@ -1230,6 +1246,12 @@
 			<!-- dropwizard metrics end -->
 
 			<dependency>
+			    <groupId>org.hamcrest</groupId>
+			    <artifactId>hamcrest</artifactId>
+			    <version>2.2</version>
+			</dependency>
+
+			<dependency>
 				<groupId>org.reactivestreams</groupId>
 				<artifactId>reactive-streams</artifactId>
 				<version>1.0.4</version>
@@ -1451,10 +1473,16 @@
 			    <version>1.2.83</version>
 			</dependency>
 			<dependency>
-			    <groupId>com.alibaba</groupId>
+			    <groupId>com.alibaba.fastjson2</groupId>
 			    <artifactId>fastjson2</artifactId>
 			    <version>2.0.49</version>
 			</dependency>
+
+			<dependency>
+				<groupId>com.alibaba.spring</groupId>
+    			<artifactId>spring-context-support</artifactId>
+    			<version>1.0.11</version>
+    		</dependency>
 
 			<dependency>
 			    <groupId>com.google.code.gson</groupId>

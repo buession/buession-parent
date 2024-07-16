@@ -34,6 +34,13 @@ Buession Parent Changelog
 - [jedis](https://github.com/redis/jedis) 版本升级至 4.4.8
 
 
+### ⭐ 新特性
+
+- 引入 [alibaba spring-context-support](https://github.com/alibaba/spring-context-support)
+- 引入 [commons-daemon](https://commons.apache.org/proper/commons-daemon/)
+- 引入 [ccommons-math3](http://commons.apache.org/proper/commons-math/)
+
+
 ---
 
 

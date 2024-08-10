@@ -5,40 +5,70 @@ Buession Parent Changelog
 ## [3.0.0](https://github.com/buession/buession-parent/releases/tag/v3.0.0) (2024-xx-xx)
 
 ### 🔨依赖升级
-- [druid](https://github.com/alibaba/druid) 版本升级至 1.2.22
+- [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.3.37
+- [spring-boot](https://spring.io/projects/spring-boot) 版本升级至 5.3.37
+- [spring-security](https://spring.io/projects/spring-security) 版本升级至 5.8.13
+- [spring-security-rsa](http://github.com/spring-projects/spring-security-rsa) 版本升级至 1.1.3
+- [spring-data-mongodb](https://spring.io/projects/spring-data-mongodb) 版本升级至 3.4.18
+- [spring-data-redis](https://spring.io/projects/spring-data-redis) 版本升级至 2.7.18
+- [spring session](https://spring.io/projects/spring-session) 版本升级至 2.7.4
+- [druid](https://github.com/alibaba/druid) 版本升级至 1.2.23
 - [fastjson2](https://github.com/alibaba/fastjson2) 版本升级至 2.0.49
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.17.1
-- [guava](https://github.com/google/guava) 版本升级至 33.2.0-jre
+- [guava](https://github.com/google/guava) 版本升级至 33.2.1-jre
 - [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc) 版本升级至 12.6.1.jre8
 - [google protobuf](https://github.com/google/protobuf-java) 版本升级至 3.25.3
 - [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/) 版本升级至 8.4.0
-- [commons-cli](https://commons.apache.org/proper/commons-cli/) 版本升级至 1.7.0
+- [commons-cli](https://commons.apache.org/proper/commons-cli/) 版本升级至 1.7.1
 - [commons-codec](https://commons.apache.org/proper/commons-codec/) 版本升级至 1.17.0
-- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.25
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.26
 - [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.12.5
-- [netty](https://netty.io/) 版本升级至 4.1.109.Final
+- [netty](https://netty.io/) 版本升级至 4.1.112.Final
 - [joda-time](https://www.joda.org/joda-time/) 版本升级至 2.12.7
+- [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 2.2
 - [commons-dbcp2](https://commons.apache.org/dbcp/) 版本升级至 2.12.0
 - [commons-text](https://commons.apache.org/proper/commons-text) 版本升级至 2.12.0
 - [apache httpcomponents 5](https://hc.apache.org/httpcomponents-client-5.3.x/) 版本升级至 5.3.1
 - [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.23.1
-- [rocketmq](https://github.com/apache/rocketmq-clients/tree/master/java) 版本升级至 5.2.0
+- [rocketmq](https://github.com/apache/rocketmq-clients/tree/master/java) 版本升级至 5.3.0
 - [zookeeper](https://github.com/apache/zookeeper) 版本升级至 3.9.2
-- [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.22
+- [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.22.1
 - [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.78.1
-- [hdrhistogram](http://hdrhistogram.github.io/HdrHistogram/) 版本升级至 2.2.1
-- [kotlin](https://kotlinlang.org/) 版本升级至 1.9.23
+- [hdrhistogram](http://hdrhistogram.github.io/HdrHistogram/) 版本升级至 2.2.2
+- [kotlin](https://kotlinlang.org/) 版本升级至 1.9.24
 - [mongodb-driver-core](https://github.com/mongodb/mongo-java-driver) 版本升级至 4.11.2
 - [mongodb-driver-sync](https://github.com/mongodb/mongo-java-driver) 版本升级至 4.11.2
 - [objectweb asm](http://asm.ow2.io/) 版本升级至 9.7
-- [jedis](https://github.com/redis/jedis) 版本升级至 4.4.8
+- [jedis](https://github.com/redis/jedis) 版本升级至 5.1.4
+- [lettuce](https://github.com/lettuce-io/lettuce-core) 版本升级至 6.4.0.M1
+- [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.0-M22
+- [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.16
+- [mongodb-driver-core](https://github.com/mongodb/mongo-java-driver) 版本升级至 5.1.2
+- [mongodb-driver-sync](https://github.com/mongodb/mongo-java-driver) 版本升级至 5.1.2
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.13.2
+- [spring-data-elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch) 版本升级至 4.4.18
+- [slf4j](http://www.slf4j.org) 版本升级至 2.0.13
+- [commons-io ](https://commons.apache.org/proper/commons-io/) 版本升级至 2.16.1
+- [commons-cli](https://commons.apache.org/proper/commons-cli/) 版本升级至 1.8.0
+- [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 7.0.5.Final
+- [projectreactor reactor-core](https://github.com/reactor/reactor-core) 版本升级至 3.6.8
 
 
 ### ⭐ 新特性
 
 - 引入 [alibaba spring-context-support](https://github.com/alibaba/spring-context-support)
 - 引入 [commons-daemon](https://commons.apache.org/proper/commons-daemon/)
-- 引入 [ccommons-math3](http://commons.apache.org/proper/commons-math/)
+- 引入 [commons-math3](http://commons.apache.org/proper/commons-math/)
+- 引入 [spring-kafka](https://github.com/spring-projects/spring-kafka)
+- 引入 [spring-rabbit](https://github.com/spring-projects/spring-rabbit)
+- 引入 [javassist](https://www.javassist.org/)
+- 引入 [elasticsearch client](https://github.com/elastic/elasticsearch)
+- 引入 [oracle ucp](https://www.oracle.com/database/technologies/maven-central-guide.html)
+
+
+### 🔔 变化
+
+- 移除 junit:junit，使用 org.junit.jupiter:junit-jupiter-api 替代
 
 
 ---
@@ -151,7 +181,7 @@ Buession Parent Changelog
 - [objectweb asm](http://asm.ow2.io/) 版本升级至 9.5
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.2.25.RELEASE
 - [jedis](https://github.com/redis/jedis) 版本升级至 4.4.3
-- [spring-security-rsa](http://github.com/spring-projects/spring-security-oauth) 版本升级至 1.0.12
+- [spring-security-rsa](http://github.com/spring-projects/spring-security-rsa) 版本升级至 1.0.12
 - [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.76
 
 

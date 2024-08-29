@@ -50,12 +50,13 @@ Buession Parent Changelog
 - [slf4j](http://www.slf4j.org) 版本升级至 2.0.13
 - [commons-io ](https://commons.apache.org/proper/commons-io/) 版本升级至 2.16.1
 - [commons-cli](https://commons.apache.org/proper/commons-cli/) 版本升级至 1.8.0
-- [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 7.0.5.Final
 - [projectreactor reactor-core](https://github.com/reactor/reactor-core) 版本升级至 3.6.8
+- [google protobuf](https://github.com/google/protobuf-java) 版本升级至 4.27.3
 
 
 ### ⭐ 新特性
 
+- 引入 [spring integration](https://github.com/spring-projects/spring-integration)
 - 引入 [alibaba spring-context-support](https://github.com/alibaba/spring-context-support)
 - 引入 [commons-daemon](https://commons.apache.org/proper/commons-daemon/)
 - 引入 [commons-math3](http://commons.apache.org/proper/commons-math/)
@@ -64,6 +65,10 @@ Buession Parent Changelog
 - 引入 [javassist](https://www.javassist.org/)
 - 引入 [elasticsearch client](https://github.com/elastic/elasticsearch)
 - 引入 [oracle ucp](https://www.oracle.com/database/technologies/maven-central-guide.html)
+- 引入 [prometheus simpleclient]
+- 引入 [couchbase client]
+- 引入 [azure cosmos]
+- 引入 [projectreactor netty](https://github.com/reactor/reactor-netty)
 
 
 ### 🔔 变化
@@ -222,10 +227,7 @@ Buession Parent Changelog
 - 引入 [apache httpcomponents 5](https://hc.apache.org/httpcomponents-client-5.2.x/)
 - 引入 [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/)
 - 引入 [mongodb-driver-sync](https://www.mongodb.com/)
-- 引入 [spring-data-cassandra](https://github.com/spring-projects/spring-data-cassandra)
 - 引入 [spring-data-elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch)
-- 引入 [spring-session-data-mongodb](https://spring.io/projects/spring-session)
-- 引入 [spring-session-hazelcast](https://spring.io/projects/spring-session)
 - 引入 [spring-session-jdbc](https://spring.io/projects/spring-session)
 - 引入 [commons-text](https://commons.apache.org/proper/commons-text)
 - 引入 [commons-jexl3](https://commons.apache.org/proper/commons-jexl/)

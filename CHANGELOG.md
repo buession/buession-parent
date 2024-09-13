@@ -15,7 +15,7 @@ Buession Parent Changelog
 - [druid](https://github.com/alibaba/druid) 版本升级至 1.2.23
 - [fastjson2](https://github.com/alibaba/fastjson2) 版本升级至 2.0.49
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.17.1
-- [guava](https://github.com/google/guava) 版本升级至 33.2.1-jre
+- [guava](https://github.com/google/guava) 版本升级至 33.3.0-jre
 - [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc) 版本升级至 12.6.1.jre8
 - [google protobuf](https://github.com/google/protobuf-java) 版本升级至 3.25.3
 - [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/) 版本升级至 8.4.0
@@ -52,6 +52,7 @@ Buession Parent Changelog
 - [commons-cli](https://commons.apache.org/proper/commons-cli/) 版本升级至 1.8.0
 - [projectreactor reactor-core](https://github.com/reactor/reactor-core) 版本升级至 3.6.8
 - [google protobuf](https://github.com/google/protobuf-java) 版本升级至 4.27.3
+- [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.11.0
 
 
 ### ⭐ 新特性

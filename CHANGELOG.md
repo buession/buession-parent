@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [3.0.0](https://github.com/buession/buession-parent/releases/tag/v3.0.0) (2024-xx-xx)
+## [3.0.0](https://github.com/buession/buession-parent/releases/tag/v3.0.0) (2024-11-06)
 
 ### 🔨依赖升级
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.3.37

@@ -50,7 +50,7 @@
   		<maven.compiler.target>1.8</maven.compiler.target>
 		<springframework.version>5.3.37</springframework.version>
 		<springframework.boot.version>2.7.18</springframework.boot.version>
-		<springframework.security.version>5.8.13</springframework.security.version>
+		<springframework.security.version>5.8.16</springframework.security.version>
 		<springframework.integration.version>5.5.20</springframework.integration.version>
 		<springframework.rabbit.version>2.4.17</springframework.rabbit.version>
 		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>

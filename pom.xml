@@ -45,9 +45,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.encoding>UTF-8</project.build.encoding>
-		<project.java.version>11</project.java.version>
-		<maven.compiler.source>11</maven.compiler.source>
-  		<maven.compiler.target>11</maven.compiler.target>
+		<project.java.version>17</project.java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+  		<maven.compiler.target>17</maven.compiler.target>
 		<springframework.version>5.3.39</springframework.version>
 		<springframework.boot.version>2.7.18</springframework.boot.version>
 		<springframework.security.version>5.8.16</springframework.security.version>
@@ -57,15 +57,15 @@
 		<springframework.session.version>2.7.4</springframework.session.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
 		<kotlin.version>2.2.10</kotlin.version>
-		<okhttp3.version>5.1.0</okhttp3.version>
+		<okhttp3.version>5.2.1</okhttp3.version>
 		<shiro.version>2.0.5</shiro.version>
-		<pac4j.version>6.2.1</pac4j.version>
+		<pac4j.version>5.6.1</pac4j.version>
 		<velocity.tools.version>3.1</velocity.tools.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
 		<kafka.version>4.0.0</kafka.version>
 		<rocketmq.version>5.3.3</rocketmq.version>
 		<mongodb.version>5.5.1</mongodb.version>
-		<elasticsearch.version>9.1.2</elasticsearch.version>
+		<elasticsearch.version>8.19.6</elasticsearch.version>
 		<netty.version>4.2.4.Final</netty.version>
 		<fasterxml.jackson.core.version>2.19.2</fasterxml.jackson.core.version>
 		<fasterxml.jackson.datatype.version>2.19.2</fasterxml.jackson.datatype.version>
@@ -502,7 +502,7 @@
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
-				<version>3.0.5</version>
+				<version>2.1.2</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -565,11 +565,13 @@
 			<dependency>
 				<groupId>org.apache.rocketmq</groupId>
 				<artifactId>rocketmq-acl</artifactId>
-				<version>${rocketmq.version}</version>
+				<!--<version>${rocketmq.version}</version>-->
+				<version>5.3.2</version>
 			    <exclusions>
 					<exclusion>
 						<groupId>org.apache.rocketmq</groupId>
-						<artifactId>rocketmq-srvutil</artifactId>
+						<!--<artifactId>rocketmq-srvutil</artifactId>-->
+						<artifactId>*</artifactId>
 					</exclusion>
 					<exclusion>
 						<groupId>io.github.aliyunmq</groupId>
@@ -1126,6 +1128,12 @@
 				<version>${okhttp3.version}</version>
 				<scope>compile</scope>
 			</dependency>
+			<dependency>
+	            <groupId>com.squareup.okhttp3</groupId>
+	            <artifactId>okhttp-jvm</artifactId>
+				<version>${okhttp3.version}</version>
+				<scope>compile</scope>
+	        </dependency>
 
 			<!-- micrometer start -->
 			<dependency>
@@ -1325,6 +1333,11 @@
 			</dependency>
 			<dependency>
 				<groupId>org.pac4j</groupId>
+				<artifactId>pac4j-cas-clientv4</artifactId>
+				<version>${pac4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.pac4j</groupId>
 				<artifactId>pac4j-http</artifactId>
 				<version>${pac4j.version}</version>
 			</dependency>
@@ -1341,7 +1354,7 @@
 			<dependency>
 				<groupId>org.pac4j</groupId>
 				<artifactId>spring-webmvc-pac4j</artifactId>
-				<version>8.0.1</version>
+				<version>6.2.0</version>
 			</dependency>
 			<!-- pac4j end -->
 
@@ -1640,6 +1653,9 @@
 						<encoding>${project.build.encoding}</encoding>
 						<source>${project.java.version}</source>
 						<target>${project.java.version}</target>
+						<compilerArgs>
+							<arg>--add-exports=java.base/java.io=ALL-UNNAMED</arg>
+						</compilerArgs>
 						<compilerArgument>-Xlint:unchecked</compilerArgument>
 					</configuration>
 				</plugin>

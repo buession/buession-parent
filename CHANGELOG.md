@@ -17,7 +17,7 @@ Buession Parent Changelog
 - [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc) 版本升级至 13.2.0.jre11
 - [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.26.0
 - [rabbitmq http-client](https://www.rabbitmq.com) 版本升级至 5.4.0
-- [okhttp](https://square.github.io/okhttp/) 版本升级至 5.1.0
+- [okhttp](https://square.github.io/okhttp/) 版本升级至 5.2.1
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) 版本升级至 7.0.2
 - [commons-beanutils](https://commons.apache.org/proper/commons-beanutils) 版本升级至 1.11.0
 - [commons-cli](https://commons.apache.org/proper/commons-cli/) 版本升级至 1.10.0
@@ -57,9 +57,9 @@ Buession Parent Changelog
 - [mapstruct](http://mapstruct.org/mapstruct/) 版本升级至 1.6.3
 - [mongodb](https://github.com/mongodb/mongo-java-driver) 版本升级至 5.5.1
 - [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.19
-- [mybatis-spring](https://github.com/mybatis/spring) 版本升级至 3.0.5
+- [mybatis-spring](https://github.com/mybatis/spring) 版本升级至 2.1.2
 - [objectweb asm](http://asm.ow2.io/) 版本升级至 9.8
-- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 6.2.1
+- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 5.7.8
 - [slf4j](http://www.slf4j.org) 版本升级至 2.0.17
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.3.39
 - [spring-security](https://spring.io/projects/spring-security) 版本升级至 5.8.16
@@ -79,7 +79,7 @@ Buession Parent Changelog
 
 ### 🔔 变化
 
-- JDK 最低支持有 1.8 升级为 11
+- JDK 最低支持有 1.8 升级为 17
 
 
 ---
@@ -95,7 +95,7 @@ Buession Parent Changelog
 
 ### 🔨依赖升级
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.3.37
-- [spring-boot](https://spring.io/projects/spring-boot) 版本升级至 5.3.37
+- [spring-boot](https://spring.io/projects/spring-boot) 版本升级至 2.7.18
 - [spring-security](https://spring.io/projects/spring-security) 版本升级至 5.8.13
 - [spring-security-rsa](http://github.com/spring-projects/spring-security-rsa) 版本升级至 1.1.3
 - [spring-data-mongodb](https://spring.io/projects/spring-data-mongodb) 版本升级至 3.4.18

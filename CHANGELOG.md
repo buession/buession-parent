@@ -43,7 +43,6 @@ Buession Parent Changelog
 - [rocketmq](https://github.com/apache/rocketmq-clients/tree/master/java) 版本升级至 5.3.3
 - [apache shiro](https://github.com/apache/shiro) 版本升级至 2.0.5
 - [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.10
-- [velocity-engine-core](https://velocity.apache.org/) 版本升级至 2.4.1
 - [zookeeper](https://github.com/apache/zookeeper) 版本升级至 3.9.3
 - [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.24
 - [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.81
@@ -61,9 +60,16 @@ Buession Parent Changelog
 - [objectweb asm](http://asm.ow2.io/) 版本升级至 9.8
 - [pac4j](https://github.com/pac4j/pac4j) 版本升级至 5.7.8
 - [slf4j](http://www.slf4j.org) 版本升级至 2.0.17
-- [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 5.3.39
-- [spring-security](https://spring.io/projects/spring-security) 版本升级至 5.8.16
+- [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 6.2.12
+- [spring security](https://spring.io/projects/spring-security) 版本升级至 5.8.16
+- [spring boot](https://spring.io/projects/spring-boot) 版本升级至 3.5.7
+- [spring security](https://spring.io/projects/spring-security) 版本升级至 6.5.6
+- [spring integration](https://github.com/spring-projects/spring-integration) 版本升级至 6.5.3
+- [spring rabbit](https://github.com/spring-projects/spring-rabbit) 版本升级至 3.2.8
+- [spring webflow](https://github.com/spring-projects/spring-webflow) 版本升级至 3.0.1
+- [spring session](https://spring.io/projects/spring-session) 版本升级至 3.5.3
 - [elasticsearch client](https://github.com/elastic/elasticsearch) 版本升级至 9.1.2
+- [servlet-api](https://projects.eclipse.org/projects/ee4j.servlet) 版本升级至 6.1.0
 
 
 ### 漏洞修复
@@ -80,6 +86,7 @@ Buession Parent Changelog
 ### 🔔 变化
 
 - JDK 最低支持有 1.8 升级为 17
+- 移除 velocity
 
 
 ---

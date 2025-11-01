@@ -48,19 +48,18 @@
 		<project.java.version>17</project.java.version>
 		<maven.compiler.source>17</maven.compiler.source>
   		<maven.compiler.target>17</maven.compiler.target>
-		<springframework.version>5.3.39</springframework.version>
-		<springframework.boot.version>2.7.18</springframework.boot.version>
-		<springframework.security.version>5.8.16</springframework.security.version>
-		<springframework.integration.version>5.5.20</springframework.integration.version>
-		<springframework.rabbit.version>2.4.17</springframework.rabbit.version>
-		<springframework.webflow.version>2.5.1.RELEASE</springframework.webflow.version>
-		<springframework.session.version>2.7.4</springframework.session.version>
+		<springframework.version>6.2.12</springframework.version>
+		<springframework.boot.version>3.5.7</springframework.boot.version>
+		<springframework.security.version>6.5.6</springframework.security.version>
+		<springframework.integration.version>6.5.3</springframework.integration.version>
+		<springframework.rabbit.version>3.2.8</springframework.rabbit.version>
+		<springframework.webflow.version>3.0.1</springframework.webflow.version>
+		<springframework.session.version>3.5.3</springframework.session.version>
 		<commons.attributes.version>2.2</commons.attributes.version>
 		<kotlin.version>2.2.10</kotlin.version>
 		<okhttp3.version>5.2.1</okhttp3.version>
 		<shiro.version>2.0.5</shiro.version>
-		<pac4j.version>5.6.1</pac4j.version>
-		<velocity.tools.version>3.1</velocity.tools.version>
+		<pac4j.version>6.2.2</pac4j.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
 		<kafka.version>4.0.0</kafka.version>
 		<rocketmq.version>5.3.3</rocketmq.version>
@@ -384,7 +383,7 @@
 			<dependency>
 			    <groupId>jakarta.servlet</groupId>
 			    <artifactId>jakarta.servlet-api</artifactId>
-			    <version>4.0.4</version>
+			    <version>6.1.0</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -611,52 +610,6 @@
 			    <artifactId>stream-client</artifactId>
 			    <version>1.2.0</version>
 			</dependency>
-
-			<!-- velocity start -->
-			<dependency>
-				<groupId>org.apache.velocity</groupId>
-				<artifactId>velocity-engine-core</artifactId>
-				<version>2.4.1</version>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.velocity.tools</groupId>
-				<artifactId>velocity-tools-generic</artifactId>
-				<version>${velocity.tools.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>asm</groupId>
-						<artifactId>asm</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>cglib</groupId>
-						<artifactId>cglib</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>com.github.cliftonlabs</groupId>
-						<artifactId>json-simple</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-			<dependency>
-				<groupId>org.apache.velocity.tools</groupId>
-				<artifactId>velocity-tools-view</artifactId>
-				<version>${velocity.tools.version}</version>
-				<exclusions>
-					<exclusion>
-						<groupId>asm</groupId>
-						<artifactId>asm</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>cglib</groupId>
-						<artifactId>cglib</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>com.github.cliftonlabs</groupId>
-						<artifactId>json-simple</artifactId>
-					</exclusion>
-				</exclusions>
-			</dependency>
-			<!-- velocity end -->
 
 			<dependency>
 				<groupId>com.google.guava</groupId>

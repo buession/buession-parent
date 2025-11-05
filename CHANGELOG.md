@@ -10,10 +10,10 @@ Buession Parent Changelog
 - [fastjson2](https://github.com/alibaba/fastjson2) 版本升级至 2.0.58
 - [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.19.2
 - [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.13.1
-- [guava](https://github.com/google/guava) 版本升级至 33.4.8-jre
+- [guava](https://github.com/google/guava) 版本升级至 33.5.0-jre
 - [google protobuf](https://github.com/google/protobuf-java) 版本升级至 4.32.0
 - [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/) 版本升级至 9.4.0
-- [oracle ucp](https://www.oracle.com/database/technologies/maven-central-guide.html) 版本升级至 23.9.0.25.07
+- [oracle ucp](https://www.oracle.com/database/technologies/maven-central-guide.html) 版本升级至 23.26.0.0.0
 - [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc) 版本升级至 13.2.0.jre11
 - [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.26.0
 - [rabbitmq http-client](https://www.rabbitmq.com) 版本升级至 5.4.0
@@ -24,35 +24,35 @@ Buession Parent Changelog
 - [commons-codec](https://commons.apache.org/proper/commons-codec/) 版本升级至 1.19.0
 - [commons-io](https://commons.apache.org/proper/commons-io/) 版本升级至 2.20.0
 - [commons-logging](https://commons.apache.org/proper/commons-logging/) 版本升级至 1.3.5
-- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.33
-- [lettuce](https://github.com/lettuce-io/lettuce-core) 版本升级至 6.8.0.RELEASE
-- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.15.3
-- [netty](https://netty.io/) 版本升级至 4.2.4.Final
-- [projectreactor reactor-core](https://github.com/reactor/reactor-core) 版本升级至 3.7.9
+- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.37
+- [lettuce](https://github.com/lettuce-io/lettuce-core) 版本升级至 7.0.0.RELEASE
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.15.5
+- [netty](https://netty.io/) 版本升级至 4.2.7.Final
+- [projectreactor reactor-core](https://github.com/reactor/reactor-core) 版本升级至 3.7.12
 - [joda-time](https://www.joda.org/joda-time/) 版本升级至 2.14.0
 - [commons-dbcp2](https://commons.apache.org/dbcp/) 版本升级至 2.13.0
-- [apache commons-lang3](https://commons.apache.org/proper/commons-lang/) 版本升级至 3.18.0
+- [apache commons-lang3](https://commons.apache.org/proper/commons-lang/) 版本升级至 3.19.0
 - [appche commons-collections4](https://commons.apache.org/proper/commons-collections/) 版本升级至 4.5.0
 - [apache commons-text](https://commons.apache.org/proper/commons-text) 版本升级至 2.14.0
 - [apache commons-jexl3](https://commons.apache.org/proper/commons-jexl/) 版本升级至 3.5.0
 - [apache commons-pool2](https://commons.apache.org/proper/commons-pool/) 版本升级至 2.12.1
 - [apache httpcore5](https://hc.apache.org/httpcomponents-client-ga/) 版本升级至 5.5
 - [apache httpclient5](https://hc.apache.org/httpcomponents-client-ga/) 版本升级至 5.5
-- [apache kafka](https://kafka.apache.org/) 版本升级至 4.0.0
+- [apache kafka](https://kafka.apache.org/) 版本升级至 4.1.0
 - [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.25.1
 - [rocketmq](https://github.com/apache/rocketmq-clients/tree/master/java) 版本升级至 5.3.3
 - [apache shiro](https://github.com/apache/shiro) 版本升级至 2.0.5
-- [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.10
+- [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.13
 - [zookeeper](https://github.com/apache/zookeeper) 版本升级至 3.9.3
 - [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.24
-- [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.81
+- [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.82
 - [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.49.5
 - [dom4j](http://dom4j.github.io/) 版本升级至 2.2.0
-- [jedis](https://github.com/redis/jedis) 版本升级至 6.1.0
-- [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 2.4
+- [jedis](https://github.com/redis/jedis) 版本升级至 7.0.0
+- [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 2.5
 - [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 9.0.1.Final
 - [jetbrains annotations](https://github.com/JetBrains/java-annotations) 版本升级至 26.0.2
-- [kotlin](https://kotlinlang.org/) 版本升级至 2.2.10
+- [kotlin](https://kotlinlang.org/) 版本升级至 2.2.21
 - [mapstruct](http://mapstruct.org/mapstruct/) 版本升级至 1.6.3
 - [mongodb](https://github.com/mongodb/mongo-java-driver) 版本升级至 5.5.1
 - [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.19
@@ -68,8 +68,19 @@ Buession Parent Changelog
 - [spring rabbit](https://github.com/spring-projects/spring-rabbit) 版本升级至 3.2.8
 - [spring webflow](https://github.com/spring-projects/spring-webflow) 版本升级至 3.0.1
 - [spring session](https://spring.io/projects/spring-session) 版本升级至 3.5.3
-- [elasticsearch client](https://github.com/elastic/elasticsearch) 版本升级至 9.1.2
+- [spring-retry](https://github.com/spring-projects/spring-retry) 版本升级至 2.0.12
+- [spring-kafka](https://github.com/spring-projects/spring-kafka) 版本升级至 3.3.10
+- [spring-data-commons](https://spring.io/projects/spring-data) 版本升级至 3.5.5
+- [spring-data-elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch) 版本升级至 5.5.5
+- [spring-data-mongodb](https://spring.io/projects/spring-data-mongodb) 版本升级至 4.5.5
+- [spring-data-redis](https://spring.io/projects/spring-data-redis) 版本升级至 3.5.5
+- [elasticsearch](https://github.com/elastic/elasticsearch) 版本升级至 9.2.0
 - [servlet-api](https://projects.eclipse.org/projects/ee4j.servlet) 版本升级至 6.1.0
+- [jakarta.el-api](https://projects.eclipse.org/projects/ee4j.el) 版本升级至 6.1.0-M1
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.20.1
+- [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.13.2
+- [mongodb](https://github.com/mongodb/mongo-java-driver) 版本升级至 5.6.1
+- [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.27.0
 
 
 ### 漏洞修复
@@ -86,6 +97,7 @@ Buession Parent Changelog
 ### 🔔 变化
 
 - JDK 最低支持有 1.8 升级为 17
+- com.google.code.findbugs@jsr305 更换为 com.github.spotbugs@spotbugs-annotations (https://spotbugs.github.io/)
 - 移除 velocity
 
 

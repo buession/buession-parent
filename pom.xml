@@ -863,13 +863,13 @@
 			<dependency>
 			    <groupId>redis.clients</groupId>
 			    <artifactId>jedis</artifactId>
-			    <version>7.0.0</version>
+			    <version>7.2.1</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
     			<groupId>io.lettuce</groupId>
     			<artifactId>lettuce-core</artifactId>
-    			<version>7.0.0.RELEASE</version>
+    			<version>7.2.1.RELEASE</version>
 				<scope>compile</scope>
 			</dependency>
 
@@ -1682,7 +1682,6 @@
 	                <version>3.4.0</version>
 	                <configuration>
 	                    <configLocation>${project.basedir}/../checkstyle.xml</configLocation>
-	                    <encoding>${project.build.encoding}</encoding>
 	                </configuration>
 	                <executions>
 	                    <execution>

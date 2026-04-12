@@ -48,7 +48,7 @@ Buession Parent Changelog
 - [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.82
 - [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.49.5
 - [dom4j](http://dom4j.github.io/) 版本升级至 2.2.0
-- [jedis](https://github.com/redis/jedis) 版本升级至 7.2.1
+- [jedis](https://github.com/redis/jedis) 版本升级至 7.4.1
 - [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 2.5
 - [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 9.0.1.Final
 - [jetbrains annotations](https://github.com/JetBrains/java-annotations) 版本升级至 26.0.2

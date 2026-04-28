@@ -15,8 +15,7 @@ Buession Parent Changelog
 - [mysql-connector-j](http://dev.mysql.com/doc/connector-j/en/) 版本升级至 9.4.0
 - [oracle ucp](https://www.oracle.com/database/technologies/maven-central-guide.html) 版本升级至 23.26.0.0.0
 - [mssql-jdbc](https://github.com/Microsoft/mssql-jdbc) 版本升级至 13.2.0.jre11
-- [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.26.0
-- [rabbitmq http-client](https://www.rabbitmq.com) 版本升级至 5.4.0
+- [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.30.0
 - [okhttp](https://square.github.io/okhttp/) 版本升级至 5.2.1
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) 版本升级至 7.0.2
 - [commons-beanutils](https://commons.apache.org/proper/commons-beanutils) 版本升级至 1.11.0
@@ -41,7 +40,7 @@ Buession Parent Changelog
 - [apache kafka](https://kafka.apache.org/) 版本升级至 4.1.0
 - [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.25.1
 - [rocketmq](https://github.com/apache/rocketmq-clients/tree/master/java) 版本升级至 5.3.3
-- [apache shiro](https://github.com/apache/shiro) 版本升级至 2.0.5
+- [apache shiro](https://github.com/apache/shiro) 版本升级至 2.1.0
 - [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.13
 - [zookeeper](https://github.com/apache/zookeeper) 版本升级至 3.9.3
 - [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.24

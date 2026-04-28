@@ -58,7 +58,7 @@
 		<commons.attributes.version>2.2</commons.attributes.version>
 		<kotlin.version>2.2.21</kotlin.version>
 		<okhttp3.version>5.2.1</okhttp3.version>
-		<shiro.version>2.0.5</shiro.version>
+		<shiro.version>2.1.0</shiro.version>
 		<pac4j.version>6.2.2</pac4j.version>
 		<sun.jersey.version>1.19.4</sun.jersey.version>
 		<kafka.version>4.1.0</kafka.version>
@@ -389,7 +389,7 @@
 			<dependency>
 			    <groupId>jakarta.servlet.jsp</groupId>
 			    <artifactId>jakarta.servlet.jsp-api</artifactId>
-			    <version>2.3.6</version>
+			    <version>4.0.0</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
@@ -559,6 +559,66 @@
 						<groupId>io.github.aliyunmq</groupId>
 						<artifactId>rocketmq-logback-classic</artifactId>
 					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-haproxy</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-http</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-http2</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-http3</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-memcache</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-mqtt</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-redis</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-smtp</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-codec-stomp</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-transport-rxtx</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-transport-sctp</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-transport-udt</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.netty</groupId>
+						<artifactId>netty-handler-proxy</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>com.google.android</groupId>
+						<artifactId>annotations</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.jctools</groupId>
+						<artifactId>jctools-core</artifactId>
+					</exclusion>
 				</exclusions>
 			</dependency>
 			<dependency>
@@ -598,12 +658,12 @@
 			<dependency>
 			    <groupId>com.rabbitmq</groupId>
 			    <artifactId>amqp-client</artifactId>
-			    <version>5.27.0</version>
+			    <version>5.30.0</version>
 			</dependency>
 			<dependency>
 			    <groupId>com.rabbitmq</groupId>
 			    <artifactId>stream-client</artifactId>
-			    <version>6.4</version>
+			    <version>1.6.0</version>
 			</dependency>
 
 			<dependency>
@@ -773,6 +833,12 @@
 			    <groupId>io.netty</groupId>
 			    <artifactId>netty-all</artifactId>
 			    <version>${netty.version}</version>
+				<exclusions>
+					<exclusion>
+			    		<groupId>org.bouncycastle</groupId>
+						<artifactId>bcprov-jdk18on</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 			    <groupId>io.netty</groupId>

@@ -24,7 +24,7 @@ Buession Parent Changelog
 - [commons-io](https://commons.apache.org/proper/commons-io/) 版本升级至 2.20.0
 - [commons-logging](https://commons.apache.org/proper/commons-logging/) 版本升级至 1.3.5
 - [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.37
-- [lettuce](https://github.com/lettuce-io/lettuce-core) 版本升级至 7.2.1.RELEASE
+- [lettuce](https://github.com/lettuce-io/lettuce-core) 版本升级至 7.5.1.RELEASE
 - [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.15.5
 - [netty](https://netty.io/) 版本升级至 4.2.7.Final
 - [projectreactor reactor-core](https://github.com/reactor/reactor-core) 版本升级至 3.7.12
@@ -47,7 +47,7 @@ Buession Parent Changelog
 - [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.82
 - [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.49.5
 - [dom4j](http://dom4j.github.io/) 版本升级至 2.2.0
-- [jedis](https://github.com/redis/jedis) 版本升级至 7.4.1
+- [jedis](https://github.com/redis/jedis) 版本升级至 7.5.0
 - [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 2.5
 - [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 9.0.1.Final
 - [jetbrains annotations](https://github.com/JetBrains/java-annotations) 版本升级至 26.0.2

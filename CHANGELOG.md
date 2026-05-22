@@ -57,7 +57,7 @@ Buession Parent Changelog
 - [mybatis](http://www.mybatis.org/mybatis-3) 版本升级至 3.5.19
 - [mybatis-spring](https://github.com/mybatis/spring) 版本升级至 2.1.2
 - [objectweb asm](http://asm.ow2.io/) 版本升级至 9.8
-- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 5.7.8
+- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 6.5.1
 - [slf4j](http://www.slf4j.org) 版本升级至 2.0.17
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 6.2.12
 - [spring security](https://spring.io/projects/spring-security) 版本升级至 5.8.16
@@ -80,6 +80,7 @@ Buession Parent Changelog
 - [gson](https://mvnrepository.com/artifact/com.google.code.gson/gson) 版本升级至 2.13.2
 - [mongodb](https://github.com/mongodb/mongo-java-driver) 版本升级至 5.6.1
 - [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.27.0
+- [jakarta.annotation-api](https://projects.eclipse.org/projects/ee4j.ca) 版本升级至 3.0.0
 
 
 ### 漏洞修复

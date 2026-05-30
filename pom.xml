@@ -1323,18 +1323,40 @@
 				<groupId>org.apache.shiro</groupId>
 				<artifactId>shiro-aspectj</artifactId>
 				<version>${shiro.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.apache.shiro</groupId>
+						<artifactId>shiro-core</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.shiro</groupId>
 				<artifactId>shiro-spring</artifactId>
 				<classifier>jakarta</classifier>
 				<version>${shiro.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.apache.shiro</groupId>
+						<artifactId>shiro-core</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.apache.shiro</groupId>
+						<artifactId>shiro-web</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.shiro</groupId>
 				<artifactId>shiro-web</artifactId>
 				<classifier>jakarta</classifier>
 				<version>${shiro.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.apache.shiro</groupId>
+						<artifactId>shiro-core</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<!-- shiro end -->
 
@@ -1372,13 +1394,33 @@
 			</dependency>
 			<dependency>
 				<groupId>org.pac4j</groupId>
-				<artifactId>pac4j-jwt</artifactId>
+				<artifactId>pac4j-kerberos</artifactId>
 				<version>${pac4j.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.pac4j</groupId>
-				<artifactId>spring-webmvc-pac4j</artifactId>
-				<version>6.2.0</version>
+				<artifactId>pac4j-ldap</artifactId>
+				<version>${pac4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.pac4j</groupId>
+				<artifactId>pac4j-oidc</artifactId>
+				<version>${pac4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.pac4j</groupId>
+				<artifactId>pac4j-saml</artifactId>
+				<version>${pac4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.pac4j</groupId>
+				<artifactId>pac4j-sql</artifactId>
+				<version>${pac4j.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.pac4j</groupId>
+				<artifactId>pac4j-jwt</artifactId>
+				<version>${pac4j.version}</version>
 			</dependency>
 			<!-- pac4j end -->
 

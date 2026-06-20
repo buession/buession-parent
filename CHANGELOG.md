@@ -59,7 +59,7 @@ Buession Parent Changelog
 - [objectweb asm](http://asm.ow2.io/) 版本升级至 9.8
 - [pac4j](https://github.com/pac4j/pac4j) 版本升级至 6.5.1
 - [slf4j](http://www.slf4j.org) 版本升级至 2.0.17
-- [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 6.2.12
+- [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 6.2.18
 - [spring security](https://spring.io/projects/spring-security) 版本升级至 5.8.16
 - [spring boot](https://spring.io/projects/spring-boot) 版本升级至 3.5.7
 - [spring security](https://spring.io/projects/spring-security) 版本升级至 6.5.6

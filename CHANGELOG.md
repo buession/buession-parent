@@ -44,7 +44,7 @@ Buession Parent Changelog
 - [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.13
 - [zookeeper](https://github.com/apache/zookeeper) 版本升级至 3.9.3
 - [aspectj](https://www.eclipse.org/aspectj/) 版本升级至 1.9.24
-- [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.82
+- [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.84
 - [checker-qual](https://github.com/typetools/checker-framework) 版本升级至 3.49.5
 - [dom4j](http://dom4j.github.io/) 版本升级至 2.2.0
 - [jedis](https://github.com/redis/jedis) 版本升级至 7.5.0

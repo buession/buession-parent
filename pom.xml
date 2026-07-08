@@ -1427,6 +1427,45 @@
 				<artifactId>pac4j-jwt</artifactId>
 				<version>${pac4j.version}</version>
 			</dependency>
+			<dependency>
+			<groupId>org.pac4j</groupId>
+				<artifactId>spring-webmvc-pac4j</artifactId>
+				<version>8.0.3</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.pac4j</groupId>
+						<artifactId>*</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.springframework</groupId>
+						<artifactId>*</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.projectlombok</groupId>
+						<artifactId>lombok</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.pac4j</groupId>
+				<artifactId>spring-webflux-pac4j</artifactId>
+				<version>3.0.0</version>
+				<scope>provided</scope>
+				<exclusions>
+					<exclusion>
+						<groupId>org.pac4j</groupId>
+						<artifactId>*</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.springframework</groupId>
+						<artifactId>*</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.projectlombok</groupId>
+						<artifactId>lombok</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
 			<!-- pac4j end -->
 
 			<dependency>

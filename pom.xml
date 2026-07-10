@@ -74,7 +74,7 @@
 		<io.micrometer.version>1.15.5</io.micrometer.version>
 		<io.dropwizard.metrics.version>4.2.37</io.dropwizard.metrics.version>
 		<aspectj.version>1.9.24</aspectj.version>
-		<org.bouncycastle.version>1.82</org.bouncycastle.version>
+		<org.bouncycastle.version>1.84</org.bouncycastle.version>
 		<org.objectweb.asm.version>9.8</org.objectweb.asm.version>
 		<protobuf.version>4.32.0</protobuf.version>
 		<mapstruct.version>1.6.3</mapstruct.version>

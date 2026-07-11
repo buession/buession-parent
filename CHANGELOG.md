@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [4.0.0](https://github.com/buession/buession-parent/releases/tag/v4.0.0) (2025-xx-xx)
+## [4.0.0](https://github.com/buession/buession-parent/releases/tag/v4.0.0) (2026-07-11)
 
 ### 🔨依赖升级
 

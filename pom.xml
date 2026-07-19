@@ -88,7 +88,6 @@
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -99,43 +98,36 @@
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-beans</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context-support</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-expression</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jcl</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jdbc</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-tx</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -171,13 +163,11 @@
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webflux</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-websocket</artifactId>
 				<version>${springframework.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -240,44 +230,37 @@
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-commons</artifactId>
 				<version>3.5.13</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.data</groupId>
     			<artifactId>spring-data-elasticsearch</artifactId>
     			<version>5.5.13</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-mongodb</artifactId>
 				<version>4.5.13</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.data</groupId>
 				<artifactId>spring-data-redis</artifactId>
 				<version>3.5.13</version>
-				<scope>compile</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.springframework.session</groupId>
 				<artifactId>spring-session-core</artifactId>
 				<version>${springframework.session.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.session</groupId>
 				<artifactId>spring-session-jdbc</artifactId>
 				<version>${springframework.session.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.session</groupId>
 				<artifactId>spring-session-data-redis</artifactId>
 				<version>${springframework.session.version}</version>
-				<scope>compile</scope>
 			</dependency>
 
 			<!-- springframework security start -->
@@ -341,85 +324,71 @@
 			    <groupId>jakarta.activation</groupId>
 			    <artifactId>jakarta.activation-api</artifactId>
 			    <version>2.2.0-M2</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.annotation</groupId>
 			    <artifactId>jakarta.annotation-api</artifactId>
 			    <version>3.0.0</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.el</groupId>
 			    <artifactId>jakarta.el-api</artifactId>
 			    <version>6.0.1</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>jakarta.inject</groupId>
 				<artifactId>jakarta.inject-api</artifactId>
 				<version>2.0.1</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.jms</groupId>
 			    <artifactId>jakarta.jms-api</artifactId>
 			    <version>3.1.0</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.jws</groupId>
 			    <artifactId>jakarta.jws-api</artifactId>
 			    <version>3.0.0</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.persistence</groupId>
 			    <artifactId>jakarta.persistence-api</artifactId>
 				<version>4.0.0-M6</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.servlet</groupId>
 			    <artifactId>jakarta.servlet-api</artifactId>
 			    <version>6.2.0-M2</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.servlet.jsp</groupId>
 			    <artifactId>jakarta.servlet.jsp-api</artifactId>
 			    <version>4.1.0-M2</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.transaction</groupId>
 			    <artifactId>jakarta.transaction-api</artifactId>
 			    <version>2.0.1</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.validation</groupId>
 			    <artifactId>jakarta.validation-api</artifactId>
 			    <version>4.0.0-M1</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>jakarta.xml.bind</groupId>
 				<artifactId>jakarta.xml.bind-api</artifactId>
 				<version>4.1.0-M1</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>jakarta.xml.ws</groupId>
 				<artifactId>jakarta.xml.ws-api</artifactId>
 				<version>4.0.3</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>jakarta.ws.rs</groupId>
 			    <artifactId>jakarta.ws.rs-api</artifactId>
 			    <version>4.0.0</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>jakarta.management.j2ee</groupId>
@@ -432,7 +401,6 @@
 			    <groupId>org.glassfish</groupId>
 			    <artifactId>jakarta.el</artifactId>
 			    <version>3.0.4</version>
-				<scope>compile</scope>
 			</dependency>
 			-->
 
@@ -461,25 +429,21 @@
 			    <groupId>org.apache.tomcat</groupId>
 			    <artifactId>tomcat-jdbc</artifactId>
 			    <version>11.0.24</version>
-      			<scope>compile</scope>
 			</dependency>
 			<dependency>
 		      	<groupId>com.zaxxer</groupId>
 		      	<artifactId>HikariCP</artifactId>
 		      	<version>7.1.0</version>
-      			<scope>compile</scope>
 			</dependency>
 			<dependency>
     			<groupId>org.apache.commons</groupId>
     			<artifactId>commons-dbcp2</artifactId>
     			<version>2.14.0</version>
-      			<scope>compile</scope>
 			</dependency>
 			<dependency>
     			<groupId>com.alibaba</groupId>
     			<artifactId>druid</artifactId>
     			<version>1.2.28</version>
-      			<scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>com.microsoft.sqlserver</groupId>
@@ -490,32 +454,27 @@
 				<groupId>com.oracle.database.jdbc</groupId>
 				<artifactId>ucp</artifactId>
 				<version>23.26.2.0.0</version>
-      			<scope>compile</scope>
 			</dependency>
 
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
 				<version>3.5.19</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
 				<version>3.0.5</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-typehandlers-jsr310</artifactId>
 				<version>1.0.2</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-typehandlers-threeten-extra</artifactId>
 				<version>1.1.1</version>
-				<scope>compile</scope>
 			</dependency>
 
 			<dependency>
@@ -703,7 +662,6 @@
 			    <groupId>org.apache.commons</groupId>
 			    <artifactId>commons-configuration2</artifactId>
 			    <version>2.15.1</version>
-			    <scope>compile</scope>
 			</dependency>
 			<dependency>
 			    <groupId>commons-configuration</groupId>
@@ -930,13 +888,11 @@
 			    <groupId>redis.clients</groupId>
 			    <artifactId>jedis</artifactId>
 			    <version>7.5.3</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
     			<groupId>io.lettuce</groupId>
     			<artifactId>lettuce-core</artifactId>
     			<version>7.6.0.RELEASE</version>
-				<scope>compile</scope>
 			</dependency>
 
 			<dependency>
@@ -1147,19 +1103,16 @@
 				<groupId>com.squareup.okhttp3</groupId>
 				<artifactId>okhttp</artifactId>
 				<version>${okhttp3.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>com.squareup.okhttp3</groupId>
 				<artifactId>logging-interceptor</artifactId>
 				<version>${okhttp3.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 	            <groupId>com.squareup.okhttp3</groupId>
 	            <artifactId>okhttp-jvm</artifactId>
 				<version>${okhttp3.version}</version>
-				<scope>compile</scope>
 	        </dependency>
 
 			<!-- micrometer start -->
@@ -1664,25 +1617,21 @@
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
 				<version>${slf4j.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>jcl-over-slf4j</artifactId>
 				<version>${slf4j.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>jul-to-slf4j</artifactId>
 				<version>${slf4j.version}</version>
-				<scope>compile</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>log4j-over-slf4j</artifactId>
 				<version>${slf4j.version}</version>
-				<scope>compile</scope>
 			</dependency>
 
 			<dependency>

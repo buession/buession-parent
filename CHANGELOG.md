@@ -2,7 +2,7 @@ Buession Parent Changelog
 ===========================
 
 
-## [4.0.1](https://github.com/buession/buession-parent/releases/tag/v4.0.1) (2026-07-xx)
+## [5.0.0](https://github.com/buession/buession-parent/releases/tag/v5.0.0) (2026-07-xx)
 
 ### 🔨依赖升级
 
@@ -29,6 +29,7 @@ Buession Parent Changelog
 - [jakarta.xml.ws-api](https://github.com/jakartaee/jax-ws-api) 版本升级至 4.0.3
 - [jakarta.ws.rs-api](https://jakarta.ee/) 版本升级至 4.0.0
 - [jetbrains annotations](https://github.com/JetBrains/java-annotations) 版本升级至 26.1.0
+- [maxmind geoip2](https://dev.maxmind.com/geoip?lang=en) 版本升级至 5.1.0
 - [kotlin](https://kotlinlang.org/) 版本升级至 2.3.21
 - [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.24
 - [HikariCP](https://github.com/brettwooldridge/HikariCP) 版本升级至 7.1.0
@@ -80,6 +81,11 @@ Buession Parent Changelog
 - [commons-logging](https://commons.apache.org/proper/commons-logging/) 版本升级至 1.4.0
 - [apache log4j](https://mvnrepository.com/artifact/org.apache.logging.log4j) 版本升级至 2.26.1
 - [slf4j](http://www.slf4j.org) 版本升级至 2.0.18
+
+### 🔔 变化
+
+- javax.validation 更换为 jakarta.validation
+- 删除一些依赖
 
 
 

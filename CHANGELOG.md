@@ -7,6 +7,7 @@ Buession Parent Changelog
 ### 🔨依赖升级
 
 - [springframework](https://github.com/spring-projects/spring-framework) 版本升级至 6.2.19
+- [spring boot](https://spring.io/projects/spring-boot) 版本升级至 3.5.16
 - [spring integration](https://github.com/spring-projects/spring-integration) 版本升级至 6.5.10
 - [spring-kafka](https://github.com/spring-projects/spring-kafka) 版本升级至 3.3.16
 - [spring rabbit](https://github.com/spring-projects/spring-rabbit) 版本升级至 3.2.12
@@ -57,8 +58,8 @@ Buession Parent Changelog
 - [javassist](https://www.javassist.org/) 版本升级至 3.32.0-GA
 - [okhttp3](https://square.github.io/okhttp/) 版本升级至 5.4.0
 - [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.39
-- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 6.5.4
-- [apache shiro](https://github.com/apache/shiro) 版本升级至 3.0.0
+- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 6.5.3
+- [apache shiro](https://github.com/apache/shiro) 版本升级至 2.2.1
 - [jayway json-path](https://github.com/jayway/JsonPath) 版本升级至 3.0.0
 - [apache httpcore5](https://hc.apache.org/httpcomponents-client-ga/) 版本升级至 5.4.3
 - [apache httpclient5](https://hc.apache.org/httpcomponents-client-ga/) 版本升级至 5.6.2

@@ -57,7 +57,6 @@ Buession Parent Changelog
 - [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 2.6
 - [javassist](https://www.javassist.org/) 版本升级至 3.32.0-GA
 - [okhttp3](https://square.github.io/okhttp/) 版本升级至 5.4.0
-- [io.dropwizard.metrics](https://mvnrepository.com/search?q=io.dropwizard.metrics) 版本升级至 4.2.39
 - [pac4j](https://github.com/pac4j/pac4j) 版本升级至 6.5.3
 - [apache shiro](https://github.com/apache/shiro) 版本升级至 2.2.1
 - [jayway json-path](https://github.com/jayway/JsonPath) 版本升级至 3.0.0
@@ -86,7 +85,7 @@ Buession Parent Changelog
 ### 🔔 变化
 
 - javax.validation 更换为 jakarta.validation
-- 删除一些依赖
+- 删除一些未使用依赖
 
 
 

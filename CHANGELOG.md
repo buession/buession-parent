@@ -2,6 +2,40 @@ Buession Parent Changelog
 ===========================
 
 
+## [5.0.1](https://github.com/buession/buession-parent/releases/tag/v5.0.1) (2026-xx-xx)
+
+### 🔨依赖升级
+
+- [elasticsearch](https://github.com/elastic/elasticsearch) 版本升级至 9.4.6
+- [fastjson2](https://github.com/alibaba/fastjson2) 版本升级至 2.0.65
+- [fasterxml jackson](http://github.com/FasterXML/jackson) 版本升级至 2.22.2
+- [spotbugs-annotations](https://spotbugs.github.io/) 版本升级至 4.10.4
+- [guava](https://github.com/google/guava) 版本升级至 33.7.1-jre
+- [google protobuf](https://github.com/google/protobuf-java) 版本升级至 4.36.1
+- [oracle ucp](https://www.oracle.com/database/technologies/maven-central-guide.html) 版本升级至 23.26.3.0.0
+- [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.35.0
+- [okhttp3](https://square.github.io/okhttp/) 版本升级至 5.5.0
+- [commons-codec](https://commons.apache.org/proper/commons-codec/) 版本升级至 1.22.1
+- [lettuce](https://github.com/lettuce-io/lettuce-core) 版本升级至 7.7.0.RELEASE
+- [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.17.1
+- [netty](https://netty.io/) 版本升级至 4.2.17.Final
+- [joda-time](https://www.joda.org/joda-time/) 版本升级至 2.14.3
+- [appche commons-collections4](https://commons.apache.org/proper/commons-collections/) 版本升级至 4.6.0
+- [apache httpclient5](https://hc.apache.org/httpcomponents-client-ga/) 版本升级至 5.6.4
+- [rocketmq](https://github.com/apache/rocketmq-clients/tree/master/java) 版本升级至 5.5.1
+- [bouncycastle](https://github.com/bcgit/bc-java) 版本升级至 1.88
+- [tomcat-jdbc](https://tomcat.apache.org/) 版本升级至 11.0.25
+- [snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml) 版本升级至 2.7
+- [pac4j](https://github.com/pac4j/pac4j) 版本升级至 6.5.6
+- [mongodb](https://github.com/mongodb/mongo-java-driver) 版本升级至 5.11.0
+- [kotlin](https://kotlinlang.org/) 版本升级至 2.4.10
+- [javassist](https://www.javassist.org/) 版本升级至 3.33.0-GA
+- [hibernate-validator](https://github.com/hibernate/hibernate-validator) 版本升级至 9.1.3.Final
+- [hibernate-core](https://github.com/hibernate/hibernate-orm) 版本升级至 7.4.7.Final
+- [elasticsearch](https://github.com/elastic/elasticsearch) 版本升级至 9.5.2
+
+
+
 ## [5.0.0](https://github.com/buession/buession-parent/releases/tag/v5.0.0) (2026-08-30)
 
 ### 🔨依赖升级

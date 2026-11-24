@@ -15,7 +15,7 @@ Buession Parent Changelog
 - [oracle ucp](https://www.oracle.com/database/technologies/maven-central-guide.html) 版本升级至 23.26.3.0.0
 - [rabbitmq amqp-client](https://www.rabbitmq.com) 版本升级至 5.35.0
 - [okhttp3](https://square.github.io/okhttp/) 版本升级至 5.5.0
-- [commons-codec](https://commons.apache.org/proper/commons-codec/) 版本升级至 1.22.1
+- [commons-codec](https://commons.apache.org/proper/commons-codec/) 版本升级至 1.23.0
 - [lettuce](https://github.com/lettuce-io/lettuce-core) 版本升级至 7.7.0.RELEASE
 - [io.micrometer](https://github.com/micrometer-metrics/micrometer) 版本升级至 1.17.1
 - [netty](https://netty.io/) 版本升级至 4.2.17.Final
